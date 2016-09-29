@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Replace build project to build kernel inline from the source -->
+  <remove-project name="platform/build" />
+  <project path="build" name="android_build" remote="unlegacy" revision="aosp-5.1" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <remove-project name="platform/frameworks/av" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="unlegacy" revision="aosp-5.1" groups="pdk" />
+  <remove-project name="platform/frameworks/native" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="unlegacy" revision="aosp-5.1" groups="pdk" /> 
+
+  <!-- Debloat -->
+  <remove-project name="device/asus/deb" />
+  <remove-project name="device/asus/flo" />
+  <remove-project name="device/asus/flo-kernel" />
+  <remove-project name="device/asus/fugu" />
+  <remove-project name="device/asus/fugu-kernel" />
+  <remove-project name="device/asus/grouper" />
+  <remove-project name="device/asus/tilapia" />
+  <remove-project name="device/htc/flounder" />
+  <remove-project name="device/htc/flounder-kernel" />
+  <remove-project name="device/lge/hammerhead" />
+  <remove-project name="device/lge/hammerhead-kernel" />
+  <remove-project name="device/lge/mako" />
+  <remove-project name="device/lge/mako-kernel" />
+  <remove-project name="device/moto/shamu" />
+  <remove-project name="device/moto/shamu-kernel" />
+  <remove-project name="device/samsung/manta" />
+  <remove-project name="platform/hardware/intel/audio_media" />
+  <remove-project name="platform/hardware/intel/bootstub" />
+  <remove-project name="platform/hardware/intel/common/bd_prov" />
+  <remove-project name="platform/hardware/intel/common/libmix" />
+  <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
+  <remove-project name="platform/hardware/intel/common/libva" />
+  <remove-project name="platform/hardware/intel/common/libwsbm" />
+  <remove-project name="platform/hardware/intel/common/omx-components" />
+  <remove-project name="platform/hardware/intel/common/utils" />
+  <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
+  <remove-project name="platform/hardware/intel/img/hwcomposer" />
+  <remove-project name="platform/hardware/intel/img/libdrm" />
+  <remove-project name="platform/hardware/intel/img/psb_headers" />
+  <remove-project name="platform/hardware/intel/img/psb_video" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/keymaster" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/msm8960" />
+  <remove-project name="platform/hardware/qcom/msm8x26" />
+  <remove-project name="platform/hardware/qcom/msm8x27" />
+  <remove-project name="platform/hardware/qcom/msm8x74" />
+  <remove-project name="platform/hardware/qcom/msm8x84" />
+  <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="platform/hardware/qcom/sensors" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/ti/omap3" />
+  <remove-project name="platform/hardware/samsung_slsi/exynos5" />
+  <remove-project name="platform/hardware/ti/omap4-aah" />
+  <remove-project name="platform/hardware/ti/omap4xxx" />
+
+</manifest>

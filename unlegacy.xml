@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Replace build project to build kernel inline from the source -->
+  <remove-project name="platform/build" />
+  <project path="build" name="android_build" remote="omap4-aosp" revision="unlegacy" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <remove-project name="platform/frameworks/native" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="unlegacy" groups="pdk" />
+
+</manifest>

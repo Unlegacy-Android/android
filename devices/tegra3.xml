@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- grouper -->
+  <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="unlegacy" revision="stable" groups="kernel,asus,grouper" />
+  <project path="device/asus/grouper" name="android_device_asus_grouper" remote="unlegacy" groups="device,asus,grouper" />
+  <project path="device/asus/tilapia" name="android_device_asus_tilapia" remote="unlegacy" groups="device,asus,grouper" />
+
+</manifest>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- common -->
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="unlegacy" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="unlegacy" groups="qcom" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="unlegacy" groups="pdk,qcom,qcom_display" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="unlegacy" groups="qcom,qcom_gps" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="unlegacy" groups="qcom,qcom_keymaster" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="unlegacy" groups="qcom" />
+
+  <!-- mako -->
+  <project path="kernel/lge/mako" name="android_kernel_lge_mako" remote="unlegacy" revision="stable" groups="kernel,lge,mako" />
+  <project path="device/lge/mako" name="android_device_lge_mako" remote="unlegacy" groups="device,lge,mako" />
+
+  <!-- hammerhead -->
+  <project path="kernel/lge/hammerhead" name="android_kernel_lge_hammerhead" remote="unlegacy" groups="kernel,lge,hammerhead" />
+  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="unlegacy" groups="device,lge,hammerhead" />
+
+</manifest>

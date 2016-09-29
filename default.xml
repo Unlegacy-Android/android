@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote  name="unlegacy"
+           fetch="https://github.com/Unlegacy-Android/"
+           review="gerrit.unlegacy-android.cf"
+           revision="aosp-6.0" />
+
+  <!-- Includes -->
+  <include name="aosp.xml" />
+  <include name="unlegacy.xml" />
+  <include name="vendor.xml" />
+
+  <!-- Include Devices -->
+  <include name="devices/omap4.xml" />
+  <include name="devices/qcom.xml" />
+  <include name="devices/tegra3.xml" />
+
+  <!-- Workaround, Google did not pushed Exchange for r66-->
+  <remove-project name="platform/packages/apps/Exchange" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="refs/tags/android-6.0.1_r63" groups="pdk-fs" />
+
+</manifest>

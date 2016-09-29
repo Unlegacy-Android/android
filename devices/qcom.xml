@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- mako -->
+  <project path="kernel/lge/mako" name="android_kernel_lge_mako" remote="unlegacy" groups="kernel,lge,mako" />
+  <project path="device/lge/mako" name="android_device_lge_mako" remote="unlegacy" groups="device,lge,mako" />
+
+</manifest>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- common -->
+  <project path="hardware/ti/omap4" name="android_hardware_ti_omap4" remote="unlegacy" groups="omap4" />
+  <project path="kernel/omap4/common" name="android_kernel_omap4_common" remote="unlegacy" groups="kernel" />
+
+  <!-- tuna -->
+  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="unlegacy" groups="kernel,samsung,tuna" />
+  <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="unlegacy" groups="device,samsung,tuna" />
+
+  <!-- espresso -->
+  <project path="kernel/samsung/espresso" name="android_kernel_samsung_espresso" remote="unlegacy" groups="kernel,samsung,espresso" />
+  <project path="device/samsung/espresso" name="android_device_samsung_espresso" remote="unlegacy" groups="device,samsung,espresso" />
+  <project path="device/samsung/espresso3g" name="android_device_samsung_espresso3g" remote="unlegacy" groups="device,samsung,espresso" />
+
+  <!-- nookhd -->
+  <project path="kernel/bn/omap" name="android_kernel_bn_omap" remote="unlegacy" groups="kernel,bn,nookhd" />
+  <project path="device/bn/common" name="android_device_bn_common" remote="unlegacy" groups="device,bn,nookhd" />
+  <project path="device/bn/ovation" name="android_device_bn_ovation" remote="unlegacy" groups="device,bn,nookhd" />
+  <project path="device/bn/hummingbird" name="android_device_bn_hummingbird" remote="unlegacy" groups="device,bn,nookhd" />
+
+</manifest>

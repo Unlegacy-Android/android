@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1abeadc6_3304e814",
+        "filename": "omap4.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000037
+      },
+      "writtenOn": "2016-09-29T18:39:03Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this file be inside the devices folder?",
+      "revId": "b426885efebe646c456330b098651546b37c5326",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
+    }
+  ]
+}

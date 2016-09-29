@@ -7,6 +7,10 @@
            review="gerrit.unlegacy-android.cf"
            revision="aosp-6.0" />
 
+  <remote  name="android-security"
+           fetch="https://github.com/android-security/"
+           revision="aosp-6.0" />
+
   <!-- Includes -->
   <include name="aosp.xml" />
   <include name="unlegacy.xml" />
@@ -20,5 +24,11 @@
   <!-- Workaround, Google did not pushed Exchange for r66-->
   <remove-project name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="refs/tags/android-6.0.1_r63" groups="pdk-fs" />
+
+  <!-- For JDK 8-->
+  <remove-project name="platform/external/doclava" />
+  <project path="external/doclava" name="android_external_doclava" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project name="platform/external/guava" />
+  <project path="external/guava" name="android_external_guava" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
 
 </manifest>

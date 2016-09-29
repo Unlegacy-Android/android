@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "1abeadc6_730e6036",
+        "filename": "default.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000037
+      },
+      "writtenOn": "2016-09-29T18:49:19Z",
+      "side": 1,
+      "message": "Nitpick: The device includes should be in alphabetical order (omap4, qcom, tegra3; not tegra3, qcom, omap4)",
+      "revId": "b426885efebe646c456330b098651546b37c5326",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1abeadc6_3304e814",
         "filename": "omap4.xml",
         "patchSetId": 8
@@ -13,6 +30,23 @@
       "writtenOn": "2016-09-29T18:39:03Z",
       "side": 1,
       "message": "Shouldn\u0027t this file be inside the devices folder?",
+      "revId": "b426885efebe646c456330b098651546b37c5326",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1abeadc6_93121c57",
+        "filename": "omap4.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000037
+      },
+      "writtenOn": "2016-09-29T18:49:19Z",
+      "side": 1,
+      "message": "This project should be set for revision\u003d\"stable\"",
       "revId": "b426885efebe646c456330b098651546b37c5326",
       "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
       "unresolved": false

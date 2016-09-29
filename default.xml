@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote  name="unlegacy"
+           fetch="https://github.com/Unlegacy-Android/"
+           review="gerrit.unlegacy-android.cf"
+           revision="aosp-4.4" />
+
+  <remote  name="android-security"
+           fetch="https://github.com/android-security/"
+           revision="aosp-4.4" />
+
+  <!-- Includes -->
+  <include name="aosp.xml" />
+  <include name="unlegacy.xml" />
+  <include name="vendor.xml" />
+
+  <!-- Include Devices -->
+  <include name="devices/omap4.xml" />
+
+  <!-- Security Updates -->
+  <include name="android-security.xml" />
+
+</manifest>

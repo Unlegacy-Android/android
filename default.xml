@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote  name="unlegacy"
+           fetch="https://github.com/"
+           review="gerrit.unlegacy-android.cf"
+           revision="aosp-5.1" />
+
+  <!-- Includes -->
+  <include name="aosp.xml" />
+  <include name="unlegacy.xml" />
+  <include name="vendor.xml" />
+
+  <!-- Include Devices -->
+  <include name="devices/omap4.xml" />
+
+</manifest>

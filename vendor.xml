@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="unlegacy" groups="vendor,asus" />
+  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="unlegacy" groups="vendor,broadcom" />
+  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="unlegacy" groups="vendor,invensense" />
+  <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="unlegacy" groups="vendor,nvidia" />
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="unlegacy" groups="vendor,widevine" />
+  <project path="vendor/lge/mako" name="proprietary_vendor_lge_mako" remote="unlegacy" groups="vendor,lge,mako" />
+  <project path="vendor/lge/hammerhead" name="proprietary_vendor_lge_hammerhead" remote="unlegacy" groups="vendor,lge,hammerhead" />
+
+</manifest>

@@ -12,5 +12,6 @@
   <include name="unlegacy.xml" />
   <include name="devices/tegra3.xml" />
   <include name="devices/qcom.xml" />
+  <include name="devices/omap4.xml" />
 
 </manifest>

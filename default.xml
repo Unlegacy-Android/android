@@ -11,7 +11,10 @@
   <include name="aosp.xml" />
   <include name="unlegacy.xml" />
   <include name="vendor.xml" />
-  <include name="devices/tegra3.xml" />
+
+  <!-- Include Devices -->
+  <include name="devices/omap4.xml" />
   <include name="devices/qcom.xml" />
+  <include name="devices/tegra3.xml" />
 
 </manifest>

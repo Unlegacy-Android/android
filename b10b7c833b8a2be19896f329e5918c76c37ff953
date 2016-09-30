@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a890539_2d52cd13",
+        "filename": "devices/omap4.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2016-09-30T21:45:10Z",
+      "side": 1,
+      "message": "3.4/common branch",
+      "revId": "b10b7c833b8a2be19896f329e5918c76c37ff953",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a890539_4d571903",
+        "filename": "devices/omap4.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2016-09-30T21:45:10Z",
+      "side": 1,
+      "message": "stable branch",
+      "revId": "b10b7c833b8a2be19896f329e5918c76c37ff953",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a890539_6d5cd526",
+        "filename": "devices/qcom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2016-09-30T21:45:10Z",
+      "side": 1,
+      "message": "stable branch",
+      "revId": "b10b7c833b8a2be19896f329e5918c76c37ff953",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
+    }
+  ]
+}

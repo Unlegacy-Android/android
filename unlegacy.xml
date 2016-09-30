@@ -13,8 +13,6 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="unlegacy" groups="pdk" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="android_frameworks_native" remote="unlegacy" groups="pdk" />
-  <remove-project name="platform/packages/apps/Camera2" />
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="unlegacy" groups="pdk-fs" />
 
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="master" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="master" groups="pdk,linux,arm" />

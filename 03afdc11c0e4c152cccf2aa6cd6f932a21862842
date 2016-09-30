@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa201ad_d0e63c44",
+        "filename": "devices/omap4.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2016-09-30T19:08:44Z",
+      "side": 1,
+      "message": "Will this be used?",
+      "revId": "03afdc11c0e4c152cccf2aa6cd6f932a21862842",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa201ad_f0e34031",
+        "filename": "devices/omap4.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2016-09-30T19:08:44Z",
+      "side": 1,
+      "message": "Does tuna kernel is the same in 4.4, 5.1, 6.0 and 7.0 so we can create a stable branch?",
+      "revId": "03afdc11c0e4c152cccf2aa6cd6f932a21862842",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa201ad_10d0c452",
+        "filename": "devices/tegra3.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2016-09-30T19:08:44Z",
+      "side": 1,
+      "message": "Should we move to a stable branch?",
+      "revId": "03afdc11c0e4c152cccf2aa6cd6f932a21862842",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa201ad_30d5c843",
+        "filename": "unlegacy.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2016-09-30T19:08:44Z",
+      "side": 1,
+      "message": "Do we need this?",
+      "revId": "03afdc11c0e4c152cccf2aa6cd6f932a21862842",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa201ad_50ca4ca2",
+        "filename": "vendor.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2016-09-30T19:08:44Z",
+      "side": 1,
+      "message": "Daniel you\u0027re going to merge these two?",
+      "revId": "03afdc11c0e4c152cccf2aa6cd6f932a21862842",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
+    }
+  ]
+}

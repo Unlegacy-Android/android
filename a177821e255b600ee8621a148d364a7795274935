@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa201ad_7081104a",
+        "filename": "default.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2016-09-30T18:42:19Z",
+      "side": 1,
+      "message": "did not push* :)",
+      "revId": "a177821e255b600ee8621a148d364a7795274935",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa201ad_10e9a41a",
+        "filename": "devices/omap4.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2016-09-30T18:42:19Z",
+      "side": 1,
+      "message": "This should use the 3.4/common branch",
+      "revId": "a177821e255b600ee8621a148d364a7795274935",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa201ad_d08f1c74",
+        "filename": "devices/omap4.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2016-09-30T18:42:19Z",
+      "side": 1,
+      "message": "This should use the stable branch",
+      "revId": "a177821e255b600ee8621a148d364a7795274935",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa201ad_b092989d",
+        "filename": "devices/omap4.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2016-09-30T18:42:19Z",
+      "side": 1,
+      "message": "This should use the stable branch",
+      "revId": "a177821e255b600ee8621a148d364a7795274935",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
+    }
+  ]
+}

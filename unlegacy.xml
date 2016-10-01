@@ -18,4 +18,21 @@
 
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="master" groups="pdk,linux,arm" />
 
+  <!-- debloat -->
+  <remove-project name="device/asus/deb" />
+  <remove-project name="device/asus/flo" />
+  <remove-project name="device/asus/flo-kernel" />
+  <remove-project name="device/asus/fugu" />
+  <remove-project name="device/asus/fugu-kernel" />
+  <remove-project name="device/lge/bullhead" />
+  <remove-project name="device/lge/bullhead-kernel" />
+  <remove-project name="device/htc/flounder" />
+  <remove-project name="device/htc/flounder-kernel" />
+  <remove-project name="device/huawei/angler" />
+  <remove-project name="device/huawei/angler-kernel" />
+  <remove-project name="device/lge/hammerhead" />
+  <remove-project name="device/lge/hammerhead-kernel" />
+  <remove-project name="device/moto/shamu" />
+  <remove-project name="device/moto/shamu-kernel" />
+
 </manifest>

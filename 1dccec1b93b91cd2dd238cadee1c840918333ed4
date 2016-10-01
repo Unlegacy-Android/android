@@ -16,6 +16,24 @@
       "revId": "1dccec1b93b91cd2dd238cadee1c840918333ed4",
       "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a890539_4dcab9a2",
+        "filename": "vendor.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000038
+      },
+      "writtenOn": "2016-10-01T12:20:24Z",
+      "side": 1,
+      "message": "empty 5.1 repo added, we can fill it later",
+      "parentUuid": "5a890539_2dee4d23",
+      "revId": "1dccec1b93b91cd2dd238cadee1c840918333ed4",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
     }
   ]
 }

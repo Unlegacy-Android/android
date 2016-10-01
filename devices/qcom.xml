@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- mako -->
-  <project path="kernel/lge/mako" name="android_kernel_lge_mako" remote="unlegacy" revision="stable" groups="kernel,lge,mako" />
-  <project path="device/lge/mako" name="android_device_lge_mako" remote="unlegacy" groups="device,lge,mako" />
+  <project path="Unlegacy-Android/kernel/lge/mako" name="android_kernel_lge_mako" remote="unlegacy" revision="stable" groups="kernel,lge,mako" />
+  <project path="Unlegacy-Android/device/lge/mako" name="android_device_lge_mako" remote="unlegacy" groups="device,lge,mako" />
 
 </manifest>

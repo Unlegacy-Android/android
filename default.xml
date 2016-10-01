@@ -3,7 +3,7 @@
 
   <!-- Remotes -->
   <remote  name="unlegacy"
-           fetch="https://github.com/Unlegacy-Android/"
+           fetch="https://github.com/"
            review="gerrit.unlegacy-android.cf"
            revision="aosp-6.0" />
 

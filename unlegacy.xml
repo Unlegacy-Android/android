@@ -3,18 +3,18 @@
 
   <!-- Replace build project to build kernel inline from the source -->
   <remove-project name="platform/build" />
-  <project path="build" name="android_build" remote="unlegacy" groups="pdk" >
+  <project path="build" name="Unlegacy-Android/android_build" remote="unlegacy" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="unlegacy" groups="pdk" />
+  <project path="frameworks/av" name="Unlegacy-Android/android_frameworks_av" remote="unlegacy" groups="pdk" />
   <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="unlegacy" groups="pdk" />
+  <project path="frameworks/native" name="Unlegacy-Android/android_frameworks_native" remote="unlegacy" groups="pdk" />
   <remove-project name="platform/packages/apps/Camera2" />
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="unlegacy" groups="pdk-fs" />
+  <project path="packages/apps/Camera2" name="Unlegacy-Android/android_packages_apps_Camera2" remote="unlegacy" groups="pdk-fs" />
 
-  <project path="external/stlport" name="android_external_stlport" remote="unlegacy" groups="pdk" />
+  <project path="external/stlport" name="Unlegacy-Android/android_external_stlport" remote="unlegacy" groups="pdk" />
 
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="master" groups="pdk,linux,arm" />
 

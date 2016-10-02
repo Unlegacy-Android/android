@@ -6,7 +6,7 @@
   <project path="kernel/omap4/common" name="Unlegacy-Android/android_kernel_omap4_common" remote="unlegacy" revision="3.4/common" groups="kernel" />
 
   <!-- tuna -->
-  <project path="kernel/samsung/tuna" name="Unlegacy-Android/android_kernel_samsung_tuna" remote="unlegacy" revision="stable" groups="kernel,samsung,tuna" />
+  <project path="kernel/samsung/tuna" name="Unlegacy-Android/android_kernel_samsung_tuna" remote="unlegacy" groups="kernel,samsung,tuna" />
   <project path="device/samsung/tuna" name="Unlegacy-Android/android_device_samsung_tuna" remote="unlegacy" groups="device,samsung,tuna" />
 
   <!-- espresso -->

@@ -26,5 +26,7 @@
   <project path="external/doclava" name="android_external_doclava" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <remove-project name="platform/external/guava" />
   <project path="external/guava" name="android_external_guava" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project name="platform/frameworks/support" />
+  <project path="frameworks/support" name="android_frameworks_support" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
 
 </manifest>

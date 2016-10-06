@@ -15,6 +15,7 @@
   <project path="frameworks/native" name="Unlegacy-Android/android_frameworks_native" remote="unlegacy" groups="pdk" />
 
   <project path="external/stlport" name="Unlegacy-Android/android_external_stlport" remote="unlegacy" groups="pdk" />
+  <project path="packages/apps/Browser" name="Unlegacy-Android/android_packages_apps_Browser" remote="unlegacy" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="master" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="master" groups="pdk,linux,arm" />
 

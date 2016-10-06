@@ -46,6 +46,8 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="android-security" groups="pdk" />
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="android_frameworks_base" remote="android-security" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="android-security" />
   <remove-project name="platform/libcore" />
   <project path="libcore" name="android_libcore" remote="android-security" />
   <remove-project name="platform/packages/apps/Bluetooth" />

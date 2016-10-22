@@ -68,6 +68,8 @@
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="android-security" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="android-security" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="android-security" />
   <remove-project name="platform/packages/services/Telephony" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="android-security" />
   <remove-project name="platform/system/core" />

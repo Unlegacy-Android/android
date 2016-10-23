@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- patched AOSP repos from android-security remote, no device specific changes needed -->
+  <remove-project name="platform/external/bluetooth/bluedroid" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="android-security" groups="pdk" />
+  <remove-project name="platform/external/conscrypt" />
+  <project path="external/conscrypt" name="android_external_conscrypt" remote="android-security" />
+  <remove-project name="platform/external/jhead" />
+  <project path="external/jhead" name="android_external_jhead" remote="android-security" groups="pdk" />
+  <remove-project name="platform/external/openssl" />
+  <project path="external/openssl" name="android_external_openssl" remote="android-security" groups="pdk" />
+  <remove-project name="platform/frameworks/base" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="android-security" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="android-security" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="android-security" />
+
+</manifest>

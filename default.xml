@@ -7,6 +7,11 @@
            review="gerrit.unlegacy-android.cf"
            revision="aosp-5.1" />
 
+
+  <remote  name="android-security"
+           fetch="https://github.com/android-security/"
+           revision="aosp-5.1" />
+
   <!-- Includes -->
   <include name="aosp.xml" />
   <include name="unlegacy.xml" />
@@ -14,5 +19,8 @@
 
   <!-- Include Devices -->
   <include name="devices/omap4.xml" />
+
+  <!-- Security Updates -->
+  <include name="android-security.xml" />
 
 </manifest>

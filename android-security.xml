@@ -4,17 +4,33 @@
   <!-- patched AOSP repos from android-security remote, no device specific changes needed -->
   <remove-project name="platform/external/bluetooth/bluedroid" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="android-security" groups="pdk" />
+  <remove-project name="platform/external/bouncycastle" />
+  <project path="external/bouncycastle" name="android_external_bouncycastle" remote="android-security" />
   <remove-project name="platform/external/conscrypt" />
   <project path="external/conscrypt" name="android_external_conscrypt" remote="android-security" />
+  <remove-project name="platform/external/flac" />
+  <project path="external/flac" name="android_external_flac" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/jhead" />
   <project path="external/jhead" name="android_external_jhead" remote="android-security" groups="pdk" />
+  <remove-project name="platform/external/libvpx" />
+  <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/openssl" />
   <project path="external/openssl" name="android_external_openssl" remote="android-security" groups="pdk" />
+  <remove-project name="platform/external/sonivox" />
+  <project path="external/sonivox" name="android_external_sonivox" remote="android-security" groups="pdk" />
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="android_frameworks_base" remote="android-security" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="android-security" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="android-security" />
+  <remove-project name="platform/libcore" />
+  <project path="libcore" name="android_libcore" remote="android-security" />
+  <remove-project name="platform/packages/apps/Email" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="android-security" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="android-security" />
+  <remove-project name="platform/system/core" />
+  <project path="system/core" name="android_system_core" remote="android-security" groups="pdk" />
 
 </manifest>

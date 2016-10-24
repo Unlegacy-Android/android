@@ -12,6 +12,8 @@
   <project path="external/flac" name="android_external_flac" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/jhead" />
   <project path="external/jhead" name="android_external_jhead" remote="android-security" groups="pdk" />
+  <remove-project name="platform/external/libvpx" />
+  <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/openssl" />
   <project path="external/openssl" name="android_external_openssl" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/sonivox" />

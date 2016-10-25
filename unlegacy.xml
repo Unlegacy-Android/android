@@ -16,7 +16,6 @@
 
   <project path="external/stlport" name="Unlegacy-Android/android_external_stlport" remote="unlegacy" groups="pdk" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="master" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="master" groups="pdk,linux,arm" />
 
   <!-- Debloat -->
   <remove-project name="device/asus/fugu" />
@@ -34,5 +33,7 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/moto/shamu" />
   <remove-project name="device/moto/shamu-kernel" />
+  <remove-project name="device/google/marlin" />
+  <remove-project name="device/google/marlin-kernel" />
 
 </manifest>

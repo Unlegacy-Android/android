@@ -5,7 +5,7 @@
   <remote  name="unlegacy"
            fetch="https://github.com/"
            review="gerrit.unlegacy-android.cf"
-           revision="aosp-7.0" />
+           revision="aosp-7.1" />
 
   <!-- Includes -->
   <include name="aosp.xml" />

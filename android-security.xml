@@ -22,16 +22,24 @@
   <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="android-security" />
   <remove-project name="platform/external/dhcpcd" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" remote="android-security" />
+  <remove-project name="platform/external/expat" />
+  <project path="external/expat" name="android_external_expat" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/flac" />
   <project path="external/flac" name="android_external_flac" remote="android-security" groups="pdk" />
+  <remove-project name="platform/external/freetype" />
+  <project path="external/freetype" name="android_external_freetype" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/jhead" />
   <project path="external/jhead" name="android_external_jhead" remote="android-security" groups="pdk" />
+  <remove-project name="platform/external/jpeg" />
+  <project path="external/jpeg" name="android_external_jpeg" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/libvpx" />
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/okhttp" />
   <project path="external/okhttp" name="android_external_okhttp" remote="android-security" />
   <remove-project name="platform/external/openssl" />
   <project path="external/openssl" name="android_external_openssl" remote="android-security" groups="pdk" />
+  <remove-project name="platform/external/sepolicy" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="android-security" />
   <remove-project name="platform/external/skia" />
   <project path="external/skia" name="android_external_skia" remote="android-security" />
   <remove-project name="platform/external/sonivox" />

@@ -20,7 +20,8 @@
   <project path="frameworks/native" name="Unlegacy-Android/android_frameworks_native" remote="unlegacy" groups="pdk" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="Unlegacy-Android/android_system_sepolicy" remote="unlegacy" groups="pdk" />
-
+  <remove-project name="platform/system/core" />
+  <project path="system/core" name="Unlegacy-Android/android_system_core" remote="unlegacy" groups="pdk" />
   <project path="external/stlport" name="Unlegacy-Android/android_external_stlport" remote="unlegacy" groups="pdk" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="master" groups="pdk,linux,arm" />
 

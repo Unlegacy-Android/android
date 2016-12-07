@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Unlegacy Android vendor project  -->
+  <project path="vendor/unlegacy" name="Unlegacy-Android/android_vendor_unlegacy" remote="unlegacy" />
+
   <!-- Replace build project to build kernel inline from the source -->
   <remove-project name="platform/build" />
   <project path="build" name="Unlegacy-Android/android_build" remote="unlegacy" groups="pdk" >

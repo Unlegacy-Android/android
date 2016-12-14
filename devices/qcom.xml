@@ -20,7 +20,7 @@
   <project path="device/lge/mako" name="Unlegacy-Android/android_device_lge_mako" remote="unlegacy" groups="device,lge,mako" />
 
   <!-- hammerhead -->
-  <project path="kernel/lge/hammerhead" name="Unlegacy-Android/android_kernel_lge_hammerhead" remote="unlegacy" groups="kernel,lge,hammerhead" />
+  <project path="kernel/lge/hammerhead" name="Unlegacy-Android/android_kernel_lge_hammerhead" remote="unlegacy" revision="stable" groups="kernel,lge,hammerhead" />
   <project path="device/lge/hammerhead" name="Unlegacy-Android/android_device_lge_hammerhead" remote="unlegacy" groups="device,lge,hammerhead" />
 
 </manifest>

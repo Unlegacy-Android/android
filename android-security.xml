@@ -18,6 +18,10 @@
   <project path="external/jhead" name="android_external_jhead" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/jpeg" />
   <project path="external/jpeg" name="android_external_jpeg" remote="android-security" groups="pdk" />
+  <remove-project name="platform/external/libnl" />
+  <project path="external/libnl" name="android_external_libnl" remote="android-security" groups="pdk" />
+  <remove-project name="platform/external/libopus" />
+  <project path="external/libopus" name="android_external_libopus" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/libvpx" />
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/openssl" />
@@ -26,8 +30,12 @@
   <project path="external/sepolicy" name="android_external_sepolicy" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/sonivox" />
   <project path="external/sonivox" name="android_external_sonivox" remote="android-security" groups="pdk" />
+  <remove-project name="platform/external/tremolo" />
+  <project path="external/tremolo" name="android_external_tremolo" remote="android-security" groups="pdk" />
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="android_frameworks_base" remote="android-security" />
+  <remove-project name="platform/frameworks/ex" />
+  <project path="frameworks/ex" name="android_frameworks_ex" remote="android-security" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="android-security" />
   <remove-project name="platform/frameworks/opt/telephony" />
@@ -36,6 +44,8 @@
   <project path="libcore" name="android_libcore" remote="android-security" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="android-security" groups="pdk-cw-fs" />
+  <remove-project name="platform/packages/apps/ContactsCommon" />
+  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="android-security" />
   <remove-project name="platform/packages/apps/Email" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="android-security" />
   <remove-project name="platform/packages/providers/DownloadProvider" />

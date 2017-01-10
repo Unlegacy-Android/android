@@ -16,6 +16,8 @@
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/bouncycastle" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" remote="android-security" />
+  <remove-project name="platform/external/chromium" />
+  <project path="external/chromium" name="android_external_chromium" remote="android-security" />
   <remove-project name="platform/external/chromium_org" />
   <project path="external/chromium_org" name="android_external_chromium_org" remote="android-security" />
   <remove-project name="platform/external/chromium_org/third_party/openssl" />

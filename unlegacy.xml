@@ -32,5 +32,6 @@
   <remove-project name="device/moto/shamu" />
   <remove-project name="device/moto/shamu-kernel" />
   <remove-project name="device/samsung/manta" />
+  <remove-project name="platform/packages/apps/Music" />
 
 </manifest>

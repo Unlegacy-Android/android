@@ -43,5 +43,6 @@
   <remove-project name="device/moto/shamu-kernel" />
   <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
+  <remove-project name="platform/packages/apps/Music" />
 
 </manifest>

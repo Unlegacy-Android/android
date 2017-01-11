@@ -39,5 +39,6 @@
   <remove-project name="device/lge/hammerhead-kernel" />
   <remove-project name="device/moto/shamu" />
   <remove-project name="device/moto/shamu-kernel" />
+  <remove-project name="platform/packages/apps/Music" />
 
 </manifest>

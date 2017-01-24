@@ -16,6 +16,8 @@
 
   <!-- nookhd -->
   <project path="kernel/bn/omap" name="Unlegacy-Android/android_kernel_bn_omap" remote="unlegacy" revision="stable" groups="kernel,bn,nookhd" />
+  <project path="hardware/ti/wlan" name="Unlegacy-Android/android_hardware_ti_wlan" remote="unlegacy" revision="stable" groups="pdk,omap4,wlan" />
+  <project path="hardware/ti/wpan" name="Unlegacy-Android/android_hardware_ti_wpan" remote="unlegacy" revision="stable" groups="pdk,omap4,bt" />
   <project path="device/bn/common" name="Unlegacy-Android/android_device_bn_common" remote="unlegacy" groups="device,bn,nookhd" />
   <project path="device/bn/ovation" name="Unlegacy-Android/android_device_bn_ovation" remote="unlegacy" groups="device,bn,nookhd" />
   <project path="device/bn/hummingbird" name="Unlegacy-Android/android_device_bn_hummingbird" remote="unlegacy" groups="device,bn,nookhd" />

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <project path="vendor/acer" name="Unlegacy-Android/proprietary_vendor_acer" remote="unlegacy" groups="vendor,acer" />
   <project path="vendor/asus" name="Unlegacy-Android/proprietary_vendor_asus" remote="unlegacy" groups="vendor,asus" />
   <project path="vendor/bn" name="Unlegacy-Android/proprietary_vendor_bn" remote="unlegacy" revision="stable" groups="vendor,bn" />
   <project path="vendor/broadcom" name="Unlegacy-Android/proprietary_vendor_broadcom" remote="unlegacy" groups="vendor,broadcom" />

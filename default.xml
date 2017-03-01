@@ -4,7 +4,7 @@
   <!-- Remotes -->
   <remote  name="unlegacy"
            fetch="https://github.com/"
-           review="gerrit.unlegacy-android.cf"
+           review="gerrit.unlegacy-android.org"
            revision="aosp-7.0" />
 
   <!-- Includes -->

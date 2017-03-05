@@ -13,6 +13,9 @@
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="Unlegacy-Android/android_frameworks_native" remote="unlegacy" groups="pdk" />
 
+  <remove-project name="platform/system/core" />
+  <project path="system/core" name="Unlegacy-Android/android_system_core" remote="unlegacy" groups="pdk" />
+
   <!-- debloat -->
   <remove-project name="device/asus/deb" />
   <remove-project name="device/asus/flo" />

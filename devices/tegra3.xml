@@ -10,8 +10,6 @@
   <project path="device/asus/tilapia" name="Unlegacy-Android/android_device_asus_tilapia" remote="unlegacy" groups="device,asus,grouper" />
 
   <!-- picasso -->
-  <project path="device/acer/a510" name="Unlegacy-Android/android_device_acer_a510" remote="unlegacy" groups="device,acer,picasso" />
-  <project path="device/acer/a700" name="Unlegacy-Android/android_device_acer_a700" remote="unlegacy" groups="device,acer,picasso" />
-  <project path="device/acer/t30-common" name="Unlegacy-Android/android_device_acer_t30-common" remote="unlegacy" groups="device,acer,picasso" />
+  <project path="device/acer/picasso2" name="Unlegacy-Android/android_device_acer_picasso2" remote="unlegacy" groups="device,acer,picasso" />
 
 </manifest>

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- common -->
+  <project path="hardware/nvidia/tegra3" name="Unlegacy-Android/android_hardware_nvidia_tegra3" remote="unlegacy" revision="stable" groups="tegra3" />
+  <project path="kernel/nvidia/tegra3" name="Unlegacy-Android/android_kernel_nvidia_tegra3" remote="unlegacy" revision="stable" groups="kernel,tegra3" />
+
   <!-- grouper -->
-  <project path="kernel/asus/grouper" name="Unlegacy-Android/android_kernel_asus_grouper" remote="unlegacy" revision="stable" groups="kernel,asus,grouper" />
   <project path="device/asus/grouper" name="Unlegacy-Android/android_device_asus_grouper" remote="unlegacy" groups="device,asus,grouper" />
   <project path="device/asus/tilapia" name="Unlegacy-Android/android_device_asus_tilapia" remote="unlegacy" groups="device,asus,grouper" />
 

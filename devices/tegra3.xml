@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- common -->
+  <project path="hardware/nvidia/tegra3" name="Unlegacy-Android/android_hardware_nvidia_tegra3" remote="unlegacy" revision="stable" groups="tegra3" />
+  <project path="kernel/nvidia/tegra3" name="Unlegacy-Android/android_kernel_nvidia_tegra3" remote="unlegacy" revision="stable" groups="kernel,tegra3" />
+
+  <!-- picasso -->
+  <project path="device/acer/picasso2" name="Unlegacy-Android/android_device_acer_picasso2" remote="unlegacy" groups="device,acer,picasso" />
+
+</manifest>

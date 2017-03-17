@@ -18,6 +18,7 @@
 
   <!-- Include Devices -->
   <include name="devices/omap4.xml" />
+  <include name="devices/tegra3.xml" />
 
   <!-- Security Updates -->
   <include name="android-security.xml" />

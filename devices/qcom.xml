@@ -16,8 +16,12 @@
   <project path="hardware/qcom/media" name="Unlegacy-Android/android_hardware_qcom_media" remote="unlegacy" groups="qcom" />
 
   <!-- mako -->
-  <project path="kernel/lge/mako" name="Unlegacy-Android/android_kernel_lge_mako" remote="unlegacy" revision="stable" groups="kernel,lge,mako" />
+  <project path="kernel/lge/mako" name="Unlegacy-Android/android_kernel_qcom_msm8960" remote="unlegacy" revision="stable" groups="kernel,lge,mako" />
   <project path="device/lge/mako" name="Unlegacy-Android/android_device_lge_mako" remote="unlegacy" groups="device,lge,mako" />
+
+  <!-- flo -->
+  <project path="kernel/asus/flo" name="Unlegacy-Android/android_kernel_qcom_msm8960" remote="unlegacy" revision="stable-flo" groups="kernel,asus,flo" />
+  <project path="device/asus/flo" name="Unlegacy-Android/android_device_asus_flo" remote="unlegacy" groups="device,asus,flo" />
 
   <!-- hammerhead -->
   <project path="kernel/lge/hammerhead" name="Unlegacy-Android/android_kernel_lge_hammerhead" remote="unlegacy" revision="stable" groups="kernel,lge,hammerhead" />

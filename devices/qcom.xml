@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- common -->
+  <project path="kernel/qcom/msm8960" name="Unlegacy-Android/android_kernel_qcom_msm8960" remote="unlegacy" revision="stable" groups="kernel,qcom" />
+
   <!-- mako -->
-  <project path="kernel/lge/mako" name="Unlegacy-Android/android_kernel_lge_mako" remote="unlegacy" revision="stable" groups="kernel,lge,mako" />
   <project path="device/lge/mako" name="Unlegacy-Android/android_device_lge_mako" remote="unlegacy" groups="device,lge,mako" />
 
 </manifest>

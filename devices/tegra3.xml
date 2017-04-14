@@ -12,4 +12,7 @@
   <!-- picasso -->
   <project path="device/acer/picasso2" name="Unlegacy-Android/android_device_acer_picasso2" remote="unlegacy" groups="device,acer,picasso" />
 
+  <!-- kai / cl2n -->
+  <project path="device/lenovo/kai" name="Unlegacy-Android/android_device_lenovo_kai" remote="unlegacy" groups="device,lenovo,kai" />
+
 </manifest>

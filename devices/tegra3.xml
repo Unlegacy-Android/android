@@ -9,4 +9,7 @@
   <project path="device/asus/grouper" name="Unlegacy-Android/android_device_asus_grouper" remote="unlegacy" groups="device,asus,grouper" />
   <project path="device/asus/tilapia" name="Unlegacy-Android/android_device_asus_tilapia" remote="unlegacy" groups="device,asus,grouper" />
 
+  <!-- picasso2 -->
+  <project path="device/acer/picasso2" name="Unlegacy-Android/android_device_acer_picasso2" remote="unlegacy" groups="device,acer,picasso2" />
+
 </manifest>

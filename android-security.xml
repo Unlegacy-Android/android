@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- patched AOSP repos from android-security remote, no device specific changes needed -->
+  <remove-project name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="android-security" groups="pdk" />
+  <remove-project name="platform/external/boringssl" />
+  <project path="external/boringssl" name="android_external_boringssl" remote="android-security" groups="pdk" />
+  <remove-project name="platform/external/libavc" />
+  <project path="external/libavc" name="android_external_libavc" remote="android-security" groups="pdk" />
+  <remove-project name="platform/external/libhevc" />
+  <project path="external/libhevc" name="android_external_libhevc" remote="android-security" groups="pdk-fs" />
+  <remove-project name="platform/external/libnfc-nci" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="android-security" groups="pdk" />
+  <remove-project name="platform/external/libnl" />
+  <project path="external/libnl" name="android_external_libnl" remote="android-security" groups="pdk" />
+  <remove-project name="platform/external/skia" />
+  <project path="external/skia" name="android_external_skia" remote="android-security" />
+  <remove-project name="platform/external/sonivox" />
+  <project path="external/sonivox" name="android_external_sonivox" remote="android-security" groups="pdk" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="android-security" />
+  <remove-project name="platform/packages/apps/CertInstaller" />
+  <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="android-security" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="android-security" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="android-security" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="android-security" />
+
+</manifest>

@@ -22,4 +22,8 @@
   <project path="device/bn/ovation" name="Unlegacy-Android/android_device_bn_ovation" remote="unlegacy" groups="device,bn,nookhd" />
   <project path="device/bn/hummingbird" name="Unlegacy-Android/android_device_bn_hummingbird" remote="unlegacy" groups="device,bn,nookhd" />
 
+  <!-- acclaim -->
+  <project path="kernel/bn/acclaim" name="Unlegacy-Android/android_kernel_bn_acclaim" remote="unlegacy" revision="stable" groups="kernel,bn,acclaim" />
+  <project path="device/bn/acclaim" name="Unlegacy-Android/android_device_bn_acclaim" remote="unlegacy" groups="device,bn,acclaim" />
+
 </manifest>

@@ -8,6 +8,7 @@
   <project path="vendor/invensense" name="Unlegacy-Android/proprietary_vendor_invensense" remote="unlegacy" groups="vendor,invensense" />
   <project path="vendor/lge" name="Unlegacy-Android/proprietary_vendor_lge" remote="unlegacy" groups="vendor,lge" />
   <project path="vendor/nvidia" name="Unlegacy-Android/proprietary_vendor_nvidia" remote="unlegacy" groups="vendor,nvidia" />
+  <project path="vendor/oneplus" name="Unlegacy-Android/proprietary_vendor_oneplus" remote="unlegacy" groups="vendor,oneplus" />
   <project path="vendor/qcom" name="Unlegacy-Android/proprietary_vendor_qcom" remote="unlegacy" groups="vendor,qcom" />
   <project path="vendor/samsung" name="Unlegacy-Android/proprietary_vendor_samsung" remote="unlegacy" groups="vendor,samsung" />
   <project path="vendor/ti" name="Unlegacy-Android/proprietary_vendor_ti" remote="unlegacy" revision="stable" groups="vendor,ti" />

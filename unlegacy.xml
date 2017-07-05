@@ -47,6 +47,7 @@
   <remove-project name="platform/system/core" />
   <project path="system/core" name="Unlegacy-Android/android_system_core" remote="unlegacy" groups="pdk" />
   <project path="external/stlport" name="Unlegacy-Android/android_external_stlport" remote="unlegacy" groups="pdk" />
+  <project path="external/boringssl-compat" name="Unlegacy-Android/android_external_sony_boringssl-compat" remote="unlegacy" groups="pdk" />
 
   <!-- Bring in Google GCC 4.7 -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="master" groups="pdk,linux,arm" />

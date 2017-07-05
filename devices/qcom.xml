@@ -29,4 +29,8 @@
   <project path="kernel/lge/hammerhead" name="Unlegacy-Android/android_kernel_lge_hammerhead" remote="unlegacy" revision="stable" groups="kernel,lge,hammerhead" />
   <project path="device/lge/hammerhead" name="Unlegacy-Android/android_device_lge_hammerhead" remote="unlegacy" groups="device,lge,hammerhead" />
 
+  <!-- bacon -->
+  <project path="kernel/oneplus/msm8974" name="Unlegacy-Android/android_kernel_oneplus_msm8974" remote="unlegacy" revision="stable" groups="kernel,oneplus" />
+  <project path="device/oneplus/bacon" name="Unlegacy-Android/android_device_oneplus_bacon" remote="unlegacy" groups="device,oneplus,bacon" />
+
 </manifest>

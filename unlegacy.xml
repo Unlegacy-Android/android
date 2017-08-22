@@ -8,10 +8,16 @@
 
   <!-- Replace build project to build kernel inline from the source -->
   <remove-project name="platform/build" />
-  <project path="build" name="Unlegacy-Android/android_build" remote="unlegacy" groups="pdk" >
+  <project path="build/make" name="Unlegacy-Android/android_build" remote="unlegacy" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
   </project>
-
+  
   <remove-project name="platform/bionic" />
   <project path="bionic" name="Unlegacy-Android/android_bionic" remote="unlegacy" groups="pdk" />
   <remove-project name="platform/frameworks/av" />

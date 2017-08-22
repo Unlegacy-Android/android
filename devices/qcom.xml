@@ -2,19 +2,22 @@
 <manifest>
 
   <!-- common -->
-  <remove-project name="platform/hardware/qcom/audio" />
-  <project path="hardware/qcom/audio" name="Unlegacy-Android/android_hardware_qcom_audio" remote="unlegacy" groups="qcom,qcom_audio" />
-  <remove-project name="platform/hardware/qcom/bt" />
-  <project path="hardware/qcom/bt" name="Unlegacy-Android/android_hardware_qcom_bt" remote="unlegacy" groups="qcom" />
-  <remove-project name="platform/hardware/qcom/display" />
-  <project path="hardware/qcom/display" name="Unlegacy-Android/android_hardware_qcom_display" remote="unlegacy" groups="pdk,qcom,qcom_display" />
-  <remove-project name="platform/hardware/qcom/gps" />
-  <project path="hardware/qcom/gps" name="Unlegacy-Android/android_hardware_qcom_gps" remote="unlegacy" groups="qcom,qcom_gps" />
-  <remove-project name="platform/hardware/qcom/keymaster" />
-  <project path="hardware/qcom/keymaster" name="Unlegacy-Android/android_hardware_qcom_keymaster" remote="unlegacy" groups="qcom,qcom_keymaster" />
-  <remove-project name="platform/hardware/qcom/media" />
-  <project path="hardware/qcom/media" name="Unlegacy-Android/android_hardware_qcom_media" remote="unlegacy" groups="qcom" />
   <project path="kernel/qcom/msm8960" name="Unlegacy-Android/android_kernel_qcom_msm8960" remote="unlegacy" revision="stable" groups="kernel,qcom" />
+
+  <!-- common AOSP parts -->
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/keymaster" />
+  <remove-project name="platform/hardware/qcom/media" />
+
+  <project path="hardware/qcom/audio" name="Unlegacy-Android/android_hardware_qcom_audio" remote="unlegacy" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/bt" name="Unlegacy-Android/android_hardware_qcom_bt" remote="unlegacy" groups="qcom" />
+  <project path="hardware/qcom/display" name="Unlegacy-Android/android_hardware_qcom_display" remote="unlegacy" groups="pdk,qcom,qcom_display" />
+  <project path="hardware/qcom/gps" name="Unlegacy-Android/android_hardware_qcom_gps" remote="unlegacy" groups="qcom,qcom_gps" />
+  <project path="hardware/qcom/keymaster" name="Unlegacy-Android/android_hardware_qcom_keymaster" remote="unlegacy" groups="qcom,qcom_keymaster" />
+  <project path="hardware/qcom/media" name="Unlegacy-Android/android_hardware_qcom_media" remote="unlegacy" groups="qcom" />
 
   <!-- mako -->
   <project path="device/lge/mako" name="Unlegacy-Android/android_device_lge_mako" remote="unlegacy" groups="device,lge,mako" />

@@ -18,6 +18,12 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <remove-project name="platform/build/soong" />
+  <project path="build/soong" name="Unlegacy-Android/android_build_soong" remote="unlegacy" groups="pdk,tradefed" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  
   <remove-project name="platform/bionic" />
   <project path="bionic" name="Unlegacy-Android/android_bionic" remote="unlegacy" groups="pdk" />
   <remove-project name="platform/frameworks/av" />

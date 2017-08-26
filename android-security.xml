@@ -13,7 +13,7 @@
   <project path="external/sfntly" name="android_external_sfntly"  remote="android-security" groups="pdk,qcom_msm8x26" />
 
   <remove-project name="platform/platform/frameworks/opt/net/wifi" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="android-security"groups="pdk" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="android-security" groups="pdk" />
 
   <remove-project name="platform/hardware/qcom/audio" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="android-security" groups="qcom,qcom_audio" />

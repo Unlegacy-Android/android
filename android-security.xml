@@ -11,7 +11,15 @@
   <project path="external/libmpeg2" name="android_external_libmpeg2" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/sfntly" />
   <project path="external/sfntly" name="android_external_sfntly"  remote="android-security" groups="pdk,qcom_msm8x26" />
+  <remove-project name="platform/external/sonivox" />
+  <project path="external/sonivox" name="android_external_sonivox" remote="android-security" groups="pdk" />
+  <remove-project name="platform/external/sqlite" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="android-security" groups="pdk" />
+  <remove-project name="platform/external/tremolo" />
+  <project path="external/tremolo" name="android_external_tremolo" remote="android-security" groups="pdk" />
 
+  <remove-project name="platform/frameworks/minikin" />
+  <project path="frameworks/minikin" name="android_frameworks_minikin" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="android-security" groups="pdk" />
 
@@ -20,5 +28,14 @@
 
   <remove-project name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="android-security" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="android-security" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="android-security" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="android-security" />
+
+  <remove-project name="platform/system/bt" />
+  <project path="system/bt" name="android_system_bt" remote="android-security" groups="pdk" />
 
 </manifest>

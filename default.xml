@@ -7,6 +7,10 @@
            review="gerrit.unlegacy-android.org"
            revision="aosp-7.1" />
 
+  <remote  name="android-security"
+           fetch="https://github.com/android-security/"
+           revision="aosp-7.1" />
+  
   <!-- Includes -->
   <include name="aosp.xml" />
   <include name="unlegacy.xml" />
@@ -17,5 +21,8 @@
   <include name="devices/qcom.xml" />
   <include name="devices/tegra3.xml" />
   <include name="devices/tegra132.xml" />
+
+  <!-- Security Updates -->
+  <include name="android-security.xml" />
 
 </manifest>

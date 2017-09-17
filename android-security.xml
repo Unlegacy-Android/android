@@ -10,7 +10,6 @@
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tremolo" />
   <remove-project name="platform/frameworks/minikin" />
-  <remove-project name="platform/hardware/broadcom/wlan" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
@@ -24,7 +23,6 @@
   <project path="external/sqlite" name="android_external_sqlite" remote="android-security" groups="pdk" />
   <project path="external/tremolo" name="android_external_tremolo" remote="android-security" groups="pdk" />
   <project path="frameworks/minikin" name="android_frameworks_minikin" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="android-security" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="android-security" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="android-security" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="android-security" />

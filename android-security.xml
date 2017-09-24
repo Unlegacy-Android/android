@@ -48,6 +48,8 @@
   <project path="external/openssl" name="android_external_openssl" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/sepolicy" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="android-security" />
+  <remove-project name="platform/external/sfntly" />
+  <project path="external/sfntly" name="android_external_sfntly" remote="android-security" />
   <remove-project name="platform/external/skia" />
   <project path="external/skia" name="android_external_skia" remote="android-security" />
   <remove-project name="platform/external/sonivox" />

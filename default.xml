@@ -27,7 +27,4 @@
   <remove-project name="platform/external/guava" />
   <project path="external/guava" name="android_external_guava" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
 
-  <!-- Security Updates -->
-  <include name="android-security.xml" />
-
 </manifest>

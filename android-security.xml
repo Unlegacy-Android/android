@@ -24,6 +24,8 @@
   <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="android-security" />
   <remove-project name="platform/external/dhcpcd" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" remote="android-security" />
+  <remove-project name="platform/external/dnsmasq" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/expat" />
   <project path="external/expat" name="android_external_expat" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/flac" />
@@ -68,6 +70,8 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="android-security" />
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="android-security" groups="pdk" />
+  <remove-project name="platform/hardware/ril" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="android-security" groups="pdk" />
   <remove-project name="platform/libcore" />
   <project path="libcore" name="android_libcore" remote="android-security" />
   <remove-project name="platform/packages/apps/Bluetooth" />

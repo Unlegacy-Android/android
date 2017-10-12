@@ -15,4 +15,7 @@
   <!-- a2109 -->
   <project path="device/lenovo/a2109" name="Unlegacy-Android/android_device_lenovo_a2109" remote="unlegacy" groups="device,lenovo,a2109" />
 
+  <!-- transformer -->
+  <project path="device/asus/transformer" name="Unlegacy-Android/android_device_asus_transformer" remote="unlegacy" groups="device,asus,transformer" />
+
 </manifest>

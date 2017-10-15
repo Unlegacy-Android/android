@@ -4,7 +4,6 @@
   <!-- common -->
   <project path="hardware/ti/omap4" name="Unlegacy-Android/android_hardware_ti_omap4" remote="unlegacy" revision="stable" groups="omap4" />
   <project path="kernel/ti/omap4" name="Unlegacy-Android/android_kernel_ti_omap4" remote="unlegacy" revision="3.0/common" groups="kernel,omap4,espresso,tuna" />
-  <project path="kernel/omap4/common" name="Unlegacy-Android/android_kernel_ti_omap4" remote="unlegacy" revision="3.4/common" groups="kernel" />
 
   <!-- tuna -->
   <project path="device/samsung/tuna" name="Unlegacy-Android/android_device_samsung_tuna" remote="unlegacy" groups="device,samsung,tuna" />

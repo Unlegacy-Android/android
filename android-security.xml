@@ -94,6 +94,8 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="android-security" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="android-security" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
+  <project path="packages/apps/QuickSearchBox" name="android_packages_apps_QuickSearchBox" remote="android-security" />
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="android-security" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />

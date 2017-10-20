@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remove AOSP Repos we needed to patch -->
+  <remove-project name="platform/external/wpa_supplicant_8" />
+
+  <!-- Patched AOSP Repos -->
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="android-security" groups="pdk" />
+
+</manifest>

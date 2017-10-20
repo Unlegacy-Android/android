@@ -15,6 +15,7 @@
   <include name="aosp.xml" />
   <include name="unlegacy.xml" />
   <include name="vendor.xml" />
+  <include name="android-security.xml" />
 
   <!-- Include Devices -->
   <include name="devices/omap4.xml" />

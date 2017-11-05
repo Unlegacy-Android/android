@@ -22,10 +22,4 @@
   <include name="devices/qcom.xml" />
   <include name="devices/tegra3.xml" />
 
-  <!-- For JDK 8-->
-  <remove-project name="platform/external/doclava" />
-  <project path="external/doclava" name="android_external_doclava" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
-  <remove-project name="platform/external/guava" />
-  <project path="external/guava" name="android_external_guava" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
-
 </manifest>

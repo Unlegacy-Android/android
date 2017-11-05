@@ -28,5 +28,6 @@
   <remove-project name="device/lge/mako-kernel" />
   <remove-project name="device/samsung/manta" />
   <remove-project name="platform/packages/apps/Music" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
 
 </manifest>

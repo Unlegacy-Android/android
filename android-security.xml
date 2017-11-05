@@ -3,110 +3,111 @@
 
   <!-- patched AOSP repos from android-security remote, no device specific changes needed -->
   <remove-project name="platform/art" />
-  <project path="art" name="android_art" remote="android-security" />
   <remove-project name="platform/bionic" />
-  <project path="bionic" name="android_bionic" remote="android-security" groups="pdk" />
   <remove-project name="platform/bootable/recovery" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="android-security" groups="pdk" />
   <remove-project name="platform/dalvik" />
-  <project path="dalvik" name="android_dalvik" remote="android-security" />
   <remove-project name="platform/external/aac" />
-  <project path="external/aac" name="android_external_aac" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/bluetooth/bluedroid" />
-  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/bouncycastle" />
-  <project path="external/bouncycastle" name="android_external_bouncycastle" remote="android-security" />
   <remove-project name="platform/external/chromium" />
-  <project path="external/chromium" name="android_external_chromium" remote="android-security" />
   <remove-project name="platform/external/chromium_org" />
-  <project path="external/chromium_org" name="android_external_chromium_org" remote="android-security" />
   <remove-project name="platform/external/chromium_org/third_party/openssl" />
-  <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="android-security" />
   <remove-project name="platform/external/dhcpcd" />
-  <project path="external/dhcpcd" name="android_external_dhcpcd" remote="android-security" />
   <remove-project name="platform/external/dnsmasq" />
-  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/expat" />
-  <project path="external/expat" name="android_external_expat" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/flac" />
-  <project path="external/flac" name="android_external_flac" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/freetype" />
-  <project path="external/freetype" name="android_external_freetype" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/icu4c" />
-  <project path="external/icu4c" name="android_external_icu4c" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/jhead" />
-  <project path="external/jhead" name="android_external_jhead" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/jpeg" />
-  <project path="external/jpeg" name="android_external_jpeg" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/libvpx" />
-  <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/libnfc-nci" />
-  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/libxml2" />
-  <project path="external/libxml2" name="android_external_libxml2" remote="android-security" />
   <remove-project name="platform/external/okhttp" />
-  <project path="external/okhttp" name="android_external_okhttp" remote="android-security" />
   <remove-project name="platform/external/openssl" />
-  <project path="external/openssl" name="android_external_openssl" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/sepolicy" />
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="android-security" />
   <remove-project name="platform/external/sfntly" />
-  <project path="external/sfntly" name="android_external_sfntly" remote="android-security" />
   <remove-project name="platform/external/skia" />
-  <project path="external/skia" name="android_external_skia" remote="android-security" />
   <remove-project name="platform/external/sonivox" />
-  <project path="external/sonivox" name="android_external_sonivox" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/sqlite" />
-  <project path="external/sqlite" name="android_external_sqlite" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/tremolo" />
-  <project path="external/tremolo" name="android_external_tremolo" remote="android-security" groups="pdk" />
   <remove-project name="platform/external/wpa_supplicant_8" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="android-security" groups="pdk" />
   <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="android-security" groups="pdk" />
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="android-security" />
   <remove-project name="platform/frameworks/opt/telephony" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="android-security" />
   <remove-project name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="android-security" groups="pdk" />
   <remove-project name="platform/hardware/ril" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="android-security" groups="pdk" />
   <remove-project name="platform/libcore" />
-  <project path="libcore" name="android_libcore" remote="android-security" />
   <remove-project name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="android-security" />
   <remove-project name="platform/packages/apps/Camera2" />
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="android-security" />
   <remove-project name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="android-security" />
   <remove-project name="platform/packages/apps/ContactsCommon" />
-  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="android-security" />
   <remove-project name="platform/packages/apps/Email" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="android-security" />
   <remove-project name="platform/packages/apps/Gallery2" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="android-security" />
   <remove-project name="platform/packages/apps/InCallUI" />
-  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="android-security" />
   <remove-project name="platform/packages/apps/Mms" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="android-security" />
   <remove-project name="platform/packages/apps/Nfc" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="android-security" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="android-security" />
   <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="android-security" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
-  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="android-security" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="android-security" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
-  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="android-security" />
   <remove-project name="platform/packages/services/Telephony" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="android-security" />
   <remove-project name="platform/system/media" />
-  <project path="system/media" name="android_system_media" remote="android-security" groups="pdk" />
   <remove-project name="platform/system/security" />
+
+  <project path="art" name="android_art" remote="android-security" />
+  <project path="bionic" name="android_bionic" remote="android-security" groups="pdk" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="android-security" groups="pdk" />
+  <project path="dalvik" name="android_dalvik" remote="android-security" />
+  <project path="external/aac" name="android_external_aac" remote="android-security" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="android-security" groups="pdk" />
+  <project path="external/bouncycastle" name="android_external_bouncycastle" remote="android-security" />
+  <project path="external/chromium" name="android_external_chromium" remote="android-security" />
+  <project path="external/chromium_org" name="android_external_chromium_org" remote="android-security" />
+  <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="android-security" />
+  <project path="external/dhcpcd" name="android_external_dhcpcd" remote="android-security" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="android-security" groups="pdk" />
+  <project path="external/expat" name="android_external_expat" remote="android-security" groups="pdk" />
+  <project path="external/flac" name="android_external_flac" remote="android-security" groups="pdk" />
+  <project path="external/freetype" name="android_external_freetype" remote="android-security" groups="pdk" />
+  <project path="external/icu4c" name="android_external_icu4c" remote="android-security" groups="pdk" />
+  <project path="external/jhead" name="android_external_jhead" remote="android-security" groups="pdk" />
+  <project path="external/jpeg" name="android_external_jpeg" remote="android-security" groups="pdk" />
+  <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="android-security" groups="pdk" />
+  <project path="external/libxml2" name="android_external_libxml2" remote="android-security" />
+  <project path="external/okhttp" name="android_external_okhttp" remote="android-security" />
+  <project path="external/openssl" name="android_external_openssl" remote="android-security" groups="pdk" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="android-security" />
+  <project path="external/sfntly" name="android_external_sfntly" remote="android-security" />
+  <project path="external/skia" name="android_external_skia" remote="android-security" />
+  <project path="external/sonivox" name="android_external_sonivox" remote="android-security" groups="pdk" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="android-security" groups="pdk" />
+  <project path="external/tremolo" name="android_external_tremolo" remote="android-security" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="android-security" groups="pdk" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="android-security" groups="pdk" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="android-security" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="android-security" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="android-security" groups="pdk" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="android-security" groups="pdk" />
+  <project path="libcore" name="android_libcore" remote="android-security" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="android-security" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="android-security" />
+  <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="android-security" />
+  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="android-security" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="android-security" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="android-security" />
+  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="android-security" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="android-security" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="android-security" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="android-security" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="android-security" />
+  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="android-security" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="android-security" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="android-security" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="android-security" />
+  <project path="system/media" name="android_system_media" remote="android-security" groups="pdk" />
   <project path="system/security" name="android_system_security" remote="android-security" groups="pdk" />
 
 </manifest>

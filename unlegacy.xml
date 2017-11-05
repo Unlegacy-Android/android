@@ -3,8 +3,6 @@
 
   <!-- Unlegacy Android vendor project  -->
   <project path="vendor/unlegacy" name="Unlegacy-Android/android_vendor_unlegacy" remote="unlegacy" />
-  <!-- AOSP Browser -->
-  <project path="packages/apps/Browser" name="Unlegacy-Android/android_packages_apps_Browser" remote="unlegacy" />
 
   <!-- Replace build project to build kernel inline from the source -->
   <remove-project name="platform/build" />

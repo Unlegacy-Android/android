@@ -5,6 +5,9 @@
   <project path="hardware/ti/omap4" name="Unlegacy-Android/android_hardware_ti_omap4" remote="unlegacy" revision="stable" groups="omap4" />
   <project path="kernel/ti/omap4" name="Unlegacy-Android/android_kernel_ti_omap4" remote="unlegacy" revision="3.0/common" groups="kernel,omap4,espresso,tuna" />
 
+  <!-- camera.omap4 -->
+  <project path="external/jhead" name="platform/external/jhead" revision="nougat-mr2-release" groups="omap4,espresso,tuna" />
+
   <!-- tuna -->
   <project path="device/samsung/tuna" name="Unlegacy-Android/android_device_samsung_tuna" remote="unlegacy" groups="device,samsung,tuna" />
 

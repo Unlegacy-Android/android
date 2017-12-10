@@ -31,7 +31,7 @@
   <project path="device/asus/flo" name="Unlegacy-Android/android_device_asus_flo" remote="unlegacy" groups="device,asus,flo" />
 
   <!-- hammerhead -->
-  <project path="kernel/lge/hammerhead" name="Unlegacy-Android/android_kernel_lge_hammerhead" remote="unlegacy" revision="stable" groups="kernel,lge,hammerhead" />
+  <project path="kernel/lge/hammerhead" name="Unlegacy-Android/android_kernel_lge_hammerhead" remote="unlegacy" groups="kernel,lge,hammerhead" />
   <project path="device/lge/hammerhead" name="Unlegacy-Android/android_device_lge_hammerhead" remote="unlegacy" groups="device,lge,hammerhead" />
 
   <!-- bacon -->

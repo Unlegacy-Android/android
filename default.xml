@@ -5,7 +5,7 @@
   <remote  name="unlegacy"
            fetch="https://github.com/"
            review="gerrit.unlegacy-android.org"
-           revision="aosp-8.0" />
+           revision="aosp-8.1" />
 
   <!-- Includes -->
   <include name="aosp.xml" />

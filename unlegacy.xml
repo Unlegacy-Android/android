@@ -4,6 +4,9 @@
   <!-- Unlegacy Android manifest project -->
   <project path="android" name="Unlegacy-Android/android" remote="unlegacy" />
 
+  <!-- Unlegacy Android tools project -->
+  <project path="unlegacy-tools" name="Unlegacy-Android/unlegacy_tools" remote="unlegacy" />
+
   <!-- Unlegacy Android vendor project  -->
   <project path="vendor/unlegacy" name="Unlegacy-Android/android_vendor_unlegacy" remote="unlegacy" />
 

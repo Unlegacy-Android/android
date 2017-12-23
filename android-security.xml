@@ -8,7 +8,9 @@
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libmpeg2" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/frameworks/minikin" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
+  <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/system/bt" />
 
   <!-- Patched AOSP Repos -->
@@ -16,7 +18,9 @@
   <project path="external/libhevc" name="android_external_libhevc" remote="android-security" />
   <project path="external/libmpeg2" name="android_external_libmpeg2" remote="android-security" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="android-security" groups="pdk" />
+  <project path="frameworks/minikin" name="android_frameworks_minikin" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="android-security" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="android-security" />
   <project path="system/bt" name="android_system_bt" remote="android-security" />
 
   <!-- For JDK 8-->

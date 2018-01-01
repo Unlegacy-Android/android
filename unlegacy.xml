@@ -43,6 +43,8 @@
   <project path="system/bt" name="Unlegacy-Android/android_system_bt" remote="unlegacy" groups="pdk" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="Unlegacy-Android/android_system_sepolicy" remote="unlegacy" groups="pdk" />
+  <remove-project name="platform/system/nfc" />
+  <project path="system/nfc" name="Unlegacy-Android/android_system_nfc" remote="unlegacy" groups="pdk" />
   <remove-project name="platform/packages/apps/Nfc" />
   <project path="packages/apps/Nfc" name="Unlegacy-Android/android_packages_apps_Nfc" remote="unlegacy" groups="apps_nfc,pdk-fs" /> />
   <remove-project name="platform/system/core" />

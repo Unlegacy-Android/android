@@ -11,6 +11,7 @@
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/msm8960" />
   <remove-project name="platform/hardware/qcom/wlan" />
 
   <project path="hardware/qcom/wlan" name="Unlegacy-Android/android_hardware_qcom_wlan" remote="unlegacy" groups="pdk,qcom_wlan" />

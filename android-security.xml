@@ -3,6 +3,7 @@
 
   <!-- patched AOSP repos from android-security remote, no device specific changes needed -->
   <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libmpeg2" />
@@ -14,6 +15,7 @@
   <remove-project name="platform/system/netd" />
 
   <project path="external/aac" name="android_external_aac" remote="android-security" groups="pdk" />
+  <project path="external/chromium-webview" name="android_external_chromium-webview" remote="android-security" groups="pdk" />
   <project path="external/libavc" name="android_external_libavc" remote="android-security" groups="pdk" />
   <project path="external/libhevc" name="android_external_libhevc" remote="android-security" groups="pdk" />
   <project path="external/libmpeg2" name="android_external_libmpeg2" remote="android-security" groups="pdk" />

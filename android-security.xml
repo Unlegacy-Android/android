@@ -33,7 +33,6 @@
   <remove-project name="platform/external/tremolo" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/frameworks/av" />
-  <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/audio" />
@@ -89,7 +88,6 @@
   <project path="external/tremolo" name="android_external_tremolo" remote="android-security" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="android-security" groups="pdk" />
   <project path="frameworks/av" name="android_frameworks_av" remote="android-security" groups="pdk" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="android-security" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="android-security" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="android-security" groups="pdk" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="android-security" groups="qcom" />

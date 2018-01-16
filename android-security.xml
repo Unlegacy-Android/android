@@ -2,12 +2,26 @@
 <manifest>
 
   <!-- patched AOSP repos from android-security remote, no device specific changes needed -->
+  <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/libavc" />
+  <remove-project name="platform/external/libhevc" />
+  <remove-project name="platform/external/libmpeg2" />
+  <remove-project name="platform/external/libvpx" />
+  <remove-project name="platform/frameworks/ex" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
+  <remove-project name="platform/system/media" />
   <remove-project name="platform/system/netd" />
 
+  <project path="external/aac" name="android_external_aac" remote="android-security" groups="pdk" />
+  <project path="external/libavc" name="android_external_libavc" remote="android-security" groups="pdk" />
+  <project path="external/libhevc" name="android_external_libhevc" remote="android-security" groups="pdk" />
+  <project path="external/libmpeg2" name="android_external_libmpeg2" remote="android-security" groups="pdk" />
+  <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
+  <project path="frameworks/ex" name="android_frameworks_ex" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="android-security" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="android-security" />
+  <project path="system/media" name="android_system_media" remote="android-security" />
   <project path="system/netd" name="android_system_netd" remote="android-security" />
 
 </manifest>

@@ -13,6 +13,9 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <remove-project name="platform/frameworks/base" />
+  <project path="frameworks/base" name="Unlegacy-Android/android_frameworks_base" remote="unlegacy" groups="pdk" />
+
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="Unlegacy-Android/android_frameworks_native" remote="unlegacy" groups="pdk" />
 

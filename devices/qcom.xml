@@ -12,6 +12,7 @@
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/msm8960" />
+  <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/qcom/wlan" />
 
   <project path="hardware/qcom/wlan" name="Unlegacy-Android/android_hardware_qcom_wlan" remote="unlegacy" groups="pdk,qcom_wlan" />
@@ -21,6 +22,7 @@
   <project path="hardware/qcom/gps" name="Unlegacy-Android/android_hardware_qcom_gps" remote="unlegacy" groups="qcom,qcom_gps" />
   <project path="hardware/qcom/keymaster" name="Unlegacy-Android/android_hardware_qcom_keymaster" remote="unlegacy" groups="qcom,qcom_keymaster" />
   <project path="hardware/qcom/media" name="Unlegacy-Android/android_hardware_qcom_media" remote="unlegacy" groups="qcom" />
+  <project path="hardware/qcom/power" name="Unlegacy-Android/android_hardware_qcom_power" remote="unlegacy" groups="qcom,pdk" />
 
   <!-- mako -->
   <project path="device/lge/mako" name="Unlegacy-Android/android_device_lge_mako" remote="unlegacy" groups="device,lge,mako" />

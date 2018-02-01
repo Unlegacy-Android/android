@@ -37,5 +37,6 @@
   <!-- bacon -->
   <project path="kernel/oneplus/msm8974" name="Unlegacy-Android/android_kernel_oneplus_msm8974" remote="unlegacy" revision="stable" groups="kernel,oneplus" />
   <project path="device/oneplus/bacon" name="Unlegacy-Android/android_device_oneplus_bacon" remote="unlegacy" groups="device,oneplus,bacon" />
+  <project path="device/oneplus/bacon/camera" name="Unlegacy-Android/android_device_oneplus_bacon_camera" remote="unlegacy" groups="device,oneplus,bacon,camera" />
 
 </manifest>

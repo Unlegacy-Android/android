@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- patched AOSP repos from android-security remote, no device specific changes needed -->
+  <remove-project name="device/common" />
   <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
@@ -61,6 +62,7 @@
   <project path="bionic" name="android_bionic" remote="android-security" groups="pdk" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="android-security" groups="pdk" />
   <project path="dalvik" name="android_dalvik" remote="android-security" />
+  <project path="device/common" name="android_device_common" remote="android-security" />
   <project path="external/aac" name="android_external_aac" remote="android-security" groups="pdk" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="android-security" groups="pdk" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" remote="android-security" />

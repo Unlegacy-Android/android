@@ -10,8 +10,10 @@
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/frameworks/ex" />
+  <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
+  <remove-project name="platform/packages/apps/UnifiedEmail" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/netd" />
 
@@ -24,7 +26,9 @@
   <project path="external/sonivox" name="android_external_sonivox" remote="android-security" groups="pdk" />
   <project path="frameworks/ex" name="android_frameworks_ex" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="android-security" groups="pdk-fs" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="android-security" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="android-security" />
+  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="android-security" groups="pdk-fs" />
   <project path="system/media" name="android_system_media" remote="android-security" />
   <project path="system/netd" name="android_system_netd" remote="android-security" />
 

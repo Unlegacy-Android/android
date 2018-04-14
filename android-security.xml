@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- Remove AOSP Repos we needed to patch -->
+  <remove-project name="device/common" />
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/doclava" />
@@ -21,6 +22,7 @@
   <remove-project name="platform/system/media" />
 
   <!-- Patched AOSP Repos -->
+  <project path="device/common" name="android_device_common" remote="android-security" />
   <project path="external/aac" name="android_external_aac" remote="android-security" groups="pdk" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="android-security" groups="pdk" />
   <project path="external/libavc" name="android_external_libavc" remote="android-security" />

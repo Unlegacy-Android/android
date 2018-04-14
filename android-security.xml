@@ -13,8 +13,10 @@
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/frameworks/ex" />
   <remove-project name="platform/frameworks/minikin" />
+  <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/UnifiedEmail" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/media" />
 
@@ -28,8 +30,10 @@
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="android-security" groups="pdk" />
   <project path="frameworks/ex" name="android_frameworks_ex" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/minikin" name="android_frameworks_minikin" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="android-security" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="android-security" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="android-security" />
+  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="android-security" groups="pdk-fs" />
   <project path="system/bt" name="android_system_bt" remote="android-security" />
   <project path="system/media" name="android_system_media" remote="android-security" groups="pdk" />
 

@@ -14,6 +14,8 @@
   <project path="hardware/qcom/keymaster" name="Unlegacy-Android/android_hardware_qcom_keymaster" remote="unlegacy" groups="qcom,qcom_keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
   <project path="hardware/qcom/media" name="Unlegacy-Android/android_hardware_qcom_media" remote="unlegacy" groups="qcom" />
+  <remove-project name="platform/hardware/qcom/power" />
+  <project path="hardware/qcom/power" name="Unlegacy-Android/android_hardware_qcom_power" remote="unlegacy" groups="qcom,pdk" />
   <project path="kernel/qcom/msm8960" name="Unlegacy-Android/android_kernel_qcom_msm8960" remote="unlegacy" revision="stable" groups="kernel,qcom" />
 
   <!-- mako -->

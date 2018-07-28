@@ -6,6 +6,6 @@
   <project path="kernel/nvidia/tegra3" name="Unlegacy-Android/android_kernel_nvidia_tegra3" remote="unlegacy" revision="stable" groups="kernel,tegra3" />
 
   <!-- picasso -->
-  <project path="device/acer/picasso2" name="Unlegacy-Android/android_device_acer_picasso2" remote="unlegacy" groups="device,acer,picasso" />
+  <project path="device/acer/picasso2" name="Unlegacy-Android/android_device_acer_picasso2" remote="unlegacy" groups="tegra3,device,acer,picasso" />
 
 </manifest>

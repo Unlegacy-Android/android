@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- flounder -->
-  <project path="kernel/htc/flounder" name="Unlegacy-Android/android_kernel_htc_flounder" remote="unlegacy" revision="stable" groups="kernel,htc,flounder" />
-  <project path="device/htc/flounder" name="Unlegacy-Android/android_device_htc_flounder" remote="unlegacy" groups="device,htc,flounder" />
+  <project path="kernel/htc/flounder" name="Unlegacy-Android/android_kernel_htc_flounder" remote="unlegacy" revision="stable" groups="tegra132,kernel,htc,flounder" />
+  <project path="device/htc/flounder" name="Unlegacy-Android/android_device_htc_flounder" remote="unlegacy" groups="tegra132,device,htc,flounder" />
 
 </manifest>

@@ -60,16 +60,15 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="master" groups="pdk,linux,arm" />
 
   <!-- Debloat -->
-  <remove-project name="device/asus/fugu" />
-  <remove-project name="device/asus/fugu-kernel" />
-  <remove-project name="device/google/dragon" />
-  <remove-project name="device/google/dragon-kernel" />
+  <remove-project name="device/google/cuttlefish" />
+  <remove-project name="device/google/cuttlefish_common" />
+  <remove-project name="device/google/cuttlefish_kernel" />
   <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
-  <remove-project name="device/huawei/angler" />
-  <remove-project name="device/huawei/angler-kernel" />
-  <remove-project name="device/lge/bullhead" />
-  <remove-project name="device/lge/bullhead-kernel" />
+  <remove-project name="device/google/muskie" />
+  <remove-project name="device/google/taimen" />
+  <remove-project name="device/google/wahoo" />
+  <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="platform/packages/apps/Browser2" />

@@ -15,6 +15,7 @@
   <remove-project name="platform/external/chromium_org/third_party/openssl" />
   <remove-project name="platform/external/dhcpcd" />
   <remove-project name="platform/external/dnsmasq" />
+  <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/flac" />
   <remove-project name="platform/external/freetype" />
@@ -72,6 +73,7 @@
   <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="android-security" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" remote="android-security" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" remote="android-security" groups="pdk" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="android-security" groups="pdk" />
   <project path="external/expat" name="android_external_expat" remote="android-security" groups="pdk" />
   <project path="external/flac" name="android_external_flac" remote="android-security" groups="pdk" />
   <project path="external/freetype" name="android_external_freetype" remote="android-security" groups="pdk" />

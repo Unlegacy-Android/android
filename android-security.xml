@@ -6,6 +6,7 @@
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/doclava" />
+  <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/guava" />
   <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libhevc" />
@@ -18,6 +19,7 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Email" />
+  <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
@@ -26,11 +28,13 @@
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/vold" />
 
   <!-- Patched AOSP Repos -->
   <project path="device/common" name="android_device_common" remote="android-security" />
   <project path="external/aac" name="android_external_aac" remote="android-security" groups="pdk" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="android-security" groups="pdk" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="android-security" groups="pdk" />
   <project path="external/libavc" name="android_external_libavc" remote="android-security" />
   <project path="external/libhevc" name="android_external_libhevc" remote="android-security" />
   <project path="external/libmpeg2" name="android_external_libmpeg2" remote="android-security" />
@@ -42,6 +46,7 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="android-security" groups="pdk" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="android-security" groups="pdk-fs" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="android-security" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="android-security" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="android-security" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="android-security" groups="pdk-fs" />
@@ -50,6 +55,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="android_system_bt" remote="android-security" />
   <project path="system/media" name="android_system_media" remote="android-security" groups="pdk" />
+  <project path="system/vold" name="android_system_vold" remote="android-security" groups="pdk" />
 
   <!-- For JDK 8-->
   <project path="external/doclava" name="android_external_doclava" remote="android-security" groups="pdk-cw-fs,pdk-fs" />

@@ -37,6 +37,8 @@
   <project path="hardware/broadcom/wlan" name="Unlegacy-Android/android_hardware_broadcom_wlan" remote="unlegacy" groups="pdk,broadcom_wlan" />
   <remove-project name="platform/hardware/ril" />
   <project path="hardware/ril" name="Unlegacy-Android/android_hardware_ril" remote="unlegacy" groups="pdk" />
+  <remove-project name="platform/external/perfetto" />
+  <project path="external/perfetto" name="Unlegacy-Android/android_external_perfetto" remote="unlegacy" groups="pdk" />
   <remove-project name="platform/system/bt" />
   <project path="system/bt" name="Unlegacy-Android/android_system_bt" remote="unlegacy" groups="pdk" />
   <remove-project name="platform/system/sepolicy" />

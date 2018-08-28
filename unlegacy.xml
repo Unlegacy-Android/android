@@ -35,8 +35,6 @@
   <project path="frameworks/native" name="Unlegacy-Android/android_frameworks_native" remote="unlegacy" groups="pdk" />
   <remove-project name="platform/hardware/broadcom/wlan" />
   <project path="hardware/broadcom/wlan" name="Unlegacy-Android/android_hardware_broadcom_wlan" remote="unlegacy" groups="pdk,broadcom_wlan" />
-  <remove-project name="platform/hardware/interfaces" />
-  <project path="hardware/interfaces" name="Unlegacy-Android/android_hardware_interfaces" remote="unlegacy" groups="pdk" />
   <remove-project name="platform/hardware/ril" />
   <project path="hardware/ril" name="Unlegacy-Android/android_hardware_ril" remote="unlegacy" groups="pdk" />
   <remove-project name="platform/system/bt" />

@@ -26,6 +26,7 @@
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libnfc-nci" />
   <remove-project name="platform/external/libxml2" />
+  <remove-project name="platform/external/neven" />
   <remove-project name="platform/external/okhttp" />
   <remove-project name="platform/external/openssl" />
   <remove-project name="platform/external/sepolicy" />
@@ -84,6 +85,7 @@
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="android-security" groups="pdk" />
   <project path="external/libxml2" name="android_external_libxml2" remote="android-security" />
+  <project path="external/neven" name="android_external_neven" remote="android-security" />
   <project path="external/okhttp" name="android_external_okhttp" remote="android-security" />
   <project path="external/openssl" name="android_external_openssl" remote="android-security" groups="pdk" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="android-security" />

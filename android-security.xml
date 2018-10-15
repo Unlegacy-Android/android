@@ -13,6 +13,7 @@
   <remove-project name="platform/external/libmpeg2" />
   <remove-project name="platform/external/libvorbis" />
   <remove-project name="platform/external/libvpx" />
+  <remove-project name="platform/external/neven" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/frameworks/ex" />
   <remove-project name="platform/frameworks/minikin" />
@@ -23,6 +24,7 @@
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/UserDictionaryProvider" />
   <remove-project name="platform/packages/services/Telephony" />
@@ -40,6 +42,7 @@
   <project path="external/libmpeg2" name="android_external_libmpeg2" remote="android-security" />
   <project path="external/libvorbis" name="android_external_libvorbis" remote="android-security" groups="pdk" />
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
+  <project path="external/neven" name="android_external_neven" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="android-security" groups="pdk" />
   <project path="frameworks/ex" name="android_frameworks_ex" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/minikin" name="android_frameworks_minikin" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
@@ -50,6 +53,7 @@
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="android-security" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="android-security" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="android-security" groups="pdk-fs" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="android-security" groups="pdk-cw-fs,pdk-fs" />

@@ -22,6 +22,9 @@
   <remove-project name="platform/system/core" />
   <project path="system/core" name="Unlegacy-Android/android_system_core" remote="unlegacy" groups="pdk" />
 
+  <!-- Add depmod, required to generate kernel module dependencies -->
+  <project path="external/kmod" name="Unlegacy-Android/android_external_kmod" remote="unlegacy" revision="stable" groups="pdk" />
+
   <!-- debloat -->
   <remove-project name="device/asus/deb" />
   <remove-project name="device/asus/flo" />

@@ -84,7 +84,7 @@
   <project path="external/libvorbis" name="android_external_libvorbis" remote="android-security" />
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="android-security" groups="pdk" />
-  <project path="external/libxml2" name="android_external_libxml2" remote="android-security" />
+  <project path="external/libxml2" name="android_external_libxml2" remote="android-security" revision="b2ceb500aaf040c9aa23e005fce8f533dda9fe26" />
   <project path="external/neven" name="android_external_neven" remote="android-security" />
   <project path="external/okhttp" name="android_external_okhttp" remote="android-security" />
   <project path="external/openssl" name="android_external_openssl" remote="android-security" groups="pdk" />

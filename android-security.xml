@@ -5,7 +5,7 @@
   <remove-project name="device/common" />
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/bouncycastle" />
-  <remove-project name="platform/external/chromium-libpack" />
+  <remove-project name="platform/external/chromium-libpac" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/curl" />
   <remove-project name="platform/external/e2fsprogs" />

@@ -4,6 +4,7 @@
   <!-- Remove AOSP Repos we needed to patch -->
   <remove-project name="device/common" />
   <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/chromium-libpac" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/doclava" />
   <remove-project name="platform/external/e2fsprogs" />
@@ -15,6 +16,7 @@
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/neven" />
+  <remove-project name="platform/external/v8" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/frameworks/ex" />
   <remove-project name="platform/frameworks/minikin" />
@@ -36,6 +38,7 @@
   <!-- Patched AOSP Repos -->
   <project path="device/common" name="android_device_common" remote="android-security" />
   <project path="external/aac" name="android_external_aac" remote="android-security" groups="pdk" />
+  <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="android-security" groups="pdk-fs" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="android-security" groups="pdk" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="android-security" groups="pdk" />
   <project path="external/libavc" name="android_external_libavc" remote="android-security" />
@@ -45,6 +48,7 @@
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
   <project path="external/libxml2" name="android_external_libxml2" remote="android-security" revision="b2ceb500aaf040c9aa23e005fce8f533dda9fe26" groups="pdk-cw-fs,pdk-fs,libxml2" />
   <project path="external/neven" name="android_external_neven" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/v8" name="android_external_v8" remote="android-security" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="android-security" groups="pdk" />
   <project path="frameworks/ex" name="android_frameworks_ex" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/minikin" name="android_frameworks_minikin" remote="android-security" groups="pdk-cw-fs,pdk-fs" />

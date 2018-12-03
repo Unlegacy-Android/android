@@ -18,6 +18,7 @@
   <remove-project name="platform/external/neven" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/sonivox" />
+  <remove-project name="platform/external/tremolo" />
   <remove-project name="platform/external/v8" />
   <remove-project name="platform/frameworks/ex" />
   <remove-project name="platform/frameworks/opt/telephony" />
@@ -53,6 +54,7 @@
   <project path="external/neven" name="android_external_neven" remote="android-security" groups="pdk" />
   <project path="external/skia" name="android_external_skia" remote="android-security" groups="pdk,qcom_msm8x26" />
   <project path="external/sonivox" name="android_external_sonivox" remote="android-security" groups="pdk" />
+  <project path="external/tremolo" name="android_external_tremolo" remote="android-security" groups="pdk" />
   <project path="external/v8" name="android_external_v8" remote="android-security" groups="pdk" />
   <project path="frameworks/ex" name="android_frameworks_ex" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="android-security" groups="pdk" />

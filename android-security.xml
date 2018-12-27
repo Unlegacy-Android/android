@@ -12,6 +12,7 @@
   <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libmpeg2" />
+  <remove-project name="platform/external/libnfc-nci" />
   <remove-project name="platform/external/libvorbis" />
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libxml2" />
@@ -36,6 +37,7 @@
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
 
   <project path="device/common" name="android_device_common" remote="android-security" />
@@ -48,6 +50,7 @@
   <project path="external/libavc" name="android_external_libavc" remote="android-security" groups="pdk" />
   <project path="external/libhevc" name="android_external_libhevc" remote="android-security" groups="pdk" />
   <project path="external/libmpeg2" name="android_external_libmpeg2" remote="android-security" groups="pdk" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="android-security" groups="pdk" />
   <project path="external/libvorbis" name="android_external_libvorbis" remote="android-security" groups="pdk" />
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
   <project path="external/libxml2" name="android_external_libxml2" remote="android-security" groups="pdk,libxml2" />
@@ -72,6 +75,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/media" name="android_system_media" remote="android-security" />
   <project path="system/netd" name="android_system_netd" remote="android-security" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="android-security" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="android-security" groups="pdk" />
 
 </manifest>

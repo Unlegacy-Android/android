@@ -12,10 +12,12 @@
   <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libmpeg2" />
+  <remove-project name="platform/external/libnfc-nci" />
   <remove-project name="platform/external/libvorbis" />
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/neven" />
+  <remove-project name="platform/external/tremolo" />
   <remove-project name="platform/external/v8" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/frameworks/ex" />
@@ -44,10 +46,12 @@
   <project path="external/libavc" name="android_external_libavc" remote="android-security" />
   <project path="external/libhevc" name="android_external_libhevc" remote="android-security" />
   <project path="external/libmpeg2" name="android_external_libmpeg2" remote="android-security" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="android-security" groups="pdk" />
   <project path="external/libvorbis" name="android_external_libvorbis" remote="android-security" groups="pdk" />
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
   <project path="external/libxml2" name="android_external_libxml2" remote="android-security" revision="b2ceb500aaf040c9aa23e005fce8f533dda9fe26" groups="pdk-cw-fs,pdk-fs,libxml2" />
   <project path="external/neven" name="android_external_neven" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/tremolo" name="android_external_tremolo" remote="android-security" groups="pdk" />
   <project path="external/v8" name="android_external_v8" remote="android-security" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="android-security" groups="pdk" />
   <project path="frameworks/ex" name="android_frameworks_ex" remote="android-security" groups="pdk-cw-fs,pdk-fs" />

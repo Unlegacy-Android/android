@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "94028a9c_08bd71e6",
+        "filename": "unlegacy.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2019-02-16T16:24:54Z",
+      "side": 1,
+      "message": "Maybe we should update this comment?",
+      "range": {
+        "startLine": 37,
+        "startChar": 21,
+        "endLine": 37,
+        "endChar": 28
+      },
+      "revId": "3bddc8a69591c874f0c582d878f8cfea26688bd1",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": true
+    }
+  ]
+}

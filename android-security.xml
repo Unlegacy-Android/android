@@ -21,12 +21,15 @@
   <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/external/tremolo" />
   <remove-project name="platform/external/v8" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/frameworks/ex" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/libcore" />
   <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/Settings" />
@@ -59,12 +62,15 @@
   <project path="external/sonivox" name="android_external_sonivox" remote="android-security" groups="pdk" />
   <project path="external/tremolo" name="android_external_tremolo" remote="android-security" groups="pdk" />
   <project path="external/v8" name="android_external_v8" remote="android-security" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="android-security" groups="pdk" />
   <project path="frameworks/ex" name="android_frameworks_ex" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="android-security" groups="pdk" />
   <project path="libcore" name="android_libcore" remote="android-security" groups="pdk" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="android-security" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="android-security" groups="pdk-fs" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="android-security" groups="pdk-fs" />
+  <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="android-security" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="android-security" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="android-security" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="android-security" groups="pdk-fs" />

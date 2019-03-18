@@ -3,6 +3,7 @@
 
   <!-- Remove AOSP Repos we needed to patch -->
   <remove-project name="device/common" />
+  <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/chromium-libpac" />
   <remove-project name="platform/external/chromium-webview" />
@@ -40,6 +41,7 @@
   <remove-project name="platform/system/vold" />
 
   <!-- Patched AOSP Repos -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="android-security" groups="pdk" />
   <project path="device/common" name="android_device_common" remote="android-security" />
   <project path="external/aac" name="android_external_aac" remote="android-security" groups="pdk" />
   <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="android-security" groups="pdk-fs" />

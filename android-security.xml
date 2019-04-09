@@ -9,6 +9,7 @@
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/curl" />
   <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libmpeg2" />
@@ -51,6 +52,7 @@
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="android-security" groups="pdk" />
   <project path="external/curl" name="android_external_curl" remote="android-security" groups="pdk" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="android-security" groups="pdk" />
+  <project path="external/icu" name="android_external_icu" remote="android-security" groups="pdk" />
   <project path="external/libavc" name="android_external_libavc" remote="android-security" groups="pdk" />
   <project path="external/libhevc" name="android_external_libhevc" remote="android-security" groups="pdk" />
   <project path="external/libmpeg2" name="android_external_libmpeg2" remote="android-security" groups="pdk" />

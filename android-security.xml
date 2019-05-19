@@ -14,6 +14,7 @@
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libmpeg2" />
   <remove-project name="platform/external/libnfc-nci" />
+  <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/libvorbis" />
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libxml2" />
@@ -57,6 +58,7 @@
   <project path="external/libhevc" name="android_external_libhevc" remote="android-security" groups="pdk" />
   <project path="external/libmpeg2" name="android_external_libmpeg2" remote="android-security" groups="pdk" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="android-security" groups="pdk" />
+  <project path="external/libpng" name="android_external_libpng" remote="android-security" groups="pdk" />
   <project path="external/libvorbis" name="android_external_libvorbis" remote="android-security" groups="pdk" />
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
   <project path="external/libxml2" name="android_external_libxml2" remote="android-security" groups="pdk,libxml2" />

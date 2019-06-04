@@ -18,6 +18,7 @@
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/neven" />
+  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tremolo" />
   <remove-project name="platform/external/v8" />
   <remove-project name="platform/external/wpa_supplicant_8" />
@@ -54,6 +55,7 @@
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
   <project path="external/libxml2" name="android_external_libxml2" remote="android-security" revision="b2ceb500aaf040c9aa23e005fce8f533dda9fe26" groups="pdk-cw-fs,pdk-fs,libxml2" />
   <project path="external/neven" name="android_external_neven" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="android-security" revision="903b3efd46fdd79fca2eab1691266744be92e37d" groups="pdk" />
   <project path="external/tremolo" name="android_external_tremolo" remote="android-security" groups="pdk" />
   <project path="external/v8" name="android_external_v8" remote="android-security" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="android-security" groups="pdk" />

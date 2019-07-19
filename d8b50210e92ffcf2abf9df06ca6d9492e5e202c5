@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6cab6763_8b1b86eb",
+        "filename": "android-security.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000038
+      },
+      "writtenOn": "2019-07-19T04:27:20Z",
+      "side": 1,
+      "message": "Remove",
+      "revId": "d8b50210e92ffcf2abf9df06ca6d9492e5e202c5",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3015c66f_69e9e474",
+        "filename": "android-security.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1000038
+      },
+      "writtenOn": "2019-07-19T04:27:20Z",
+      "side": 1,
+      "message": "Remove",
+      "revId": "d8b50210e92ffcf2abf9df06ca6d9492e5e202c5",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": true
+    }
+  ]
+}

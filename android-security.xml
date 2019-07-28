@@ -19,6 +19,7 @@
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/neven" />
+  <remove-project name="platform/external/sfntly" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/external/sqlite" />
@@ -39,6 +40,7 @@
   <remove-project name="platform/packages/apps/UnifiedEmail" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/providers/UserDictionaryProvider" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/system/media" />
@@ -63,6 +65,7 @@
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
   <project path="external/libxml2" name="android_external_libxml2" remote="android-security" groups="pdk,libxml2" />
   <project path="external/neven" name="android_external_neven" remote="android-security" groups="pdk" />
+  <project path="external/sfntly" name="android_external_sfntly" remote="android-security" groups="pdk,qcom_msm8x26" />
   <project path="external/skia" name="android_external_skia" remote="android-security" groups="pdk,qcom_msm8x26" />
   <project path="external/sonivox" name="android_external_sonivox" remote="android-security" groups="pdk" />
   <project path="external/sqlite" name="android_external_sqlite" remote="android-security" groups="pdk" />
@@ -83,6 +86,7 @@
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="android-security" groups="pdk-fs" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/media" name="android_system_media" remote="android-security" />

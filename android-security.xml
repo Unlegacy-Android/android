@@ -3,6 +3,7 @@
 
   <!-- patched AOSP repos from android-security remote, no device specific changes needed -->
   <remove-project name="device/common" />
+  <remove-project name="platform/art" />
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/bouncycastle" />
   <remove-project name="platform/external/chromium-libpac" />
@@ -10,8 +11,11 @@
   <remove-project name="platform/external/curl" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/ImageMagick" />
   <remove-project name="platform/external/libavc" />
+  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libhevc" />
+  <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libmpeg2" />
   <remove-project name="platform/external/libnfc-nci" />
   <remove-project name="platform/external/libpng" />
@@ -30,24 +34,30 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/libcore" />
   <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/CertInstaller" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/providers/TvProvider" />
   <remove-project name="platform/packages/providers/UserDictionaryProvider" />
+  <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/system/gatekeeper" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
 
+  <project path="art" name="android_art" remote="android-security" groups="pdk" />
   <project path="device/common" name="android_device_common" remote="android-security" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" remote="android-security" groups="pdk" />
   <project path="external/aac" name="android_external_aac" remote="android-security" groups="pdk" />
@@ -56,8 +66,11 @@
   <project path="external/curl" name="android_external_curl" remote="android-security" groups="pdk" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="android-security" groups="pdk" />
   <project path="external/icu" name="android_external_icu" remote="android-security" groups="pdk" />
+  <project path="external/ImageMagick" name="android_external_ImageMagick" remote="android-security" groups="pdk" />
   <project path="external/libavc" name="android_external_libavc" remote="android-security" groups="pdk" />
+  <project path="external/libcxx" name="android_external_libcxx" remote="android-security" groups="pdk" />
   <project path="external/libhevc" name="android_external_libhevc" remote="android-security" groups="pdk" />
+  <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="android-security" groups="pdk" />
   <project path="external/libmpeg2" name="android_external_libmpeg2" remote="android-security" groups="pdk" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="android-security" groups="pdk" />
   <project path="external/libpng" name="android_external_libpng" remote="android-security" groups="pdk" />
@@ -76,19 +89,24 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="android-security" groups="pdk" />
   <project path="libcore" name="android_libcore" remote="android-security" groups="pdk" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="android-security" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="android-security" groups="pdk-fs" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="android-security" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="android-security" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="android-security" groups="pdk-fs" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="android-security" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="android-security" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="android-security" groups="pdk-fs" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="android-security" groups="pdk-fs" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/TvProvider" name="android_packages_providers_TvProvider" remote="android-security" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
+  <project path="system/gatekeeper" name="android_system_gatekeeper" remote="android-security" groups="pdk" />
   <project path="system/media" name="android_system_media" remote="android-security" />
   <project path="system/netd" name="android_system_netd" remote="android-security" />
   <project path="system/update_engine" name="android_system_update_engine" remote="android-security" groups="pdk" />

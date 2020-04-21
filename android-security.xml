@@ -51,6 +51,7 @@
   <remove-project name="platform/packages/providers/UserDictionaryProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/prebuilts/misc" />
   <remove-project name="platform/system/gatekeeper" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/netd" />
@@ -106,6 +107,7 @@
   <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
+  <project path="prebuilts/misc" name="android_prebuilts_misc" remote="android-security" groups="pdk" />
   <project path="system/gatekeeper" name="android_system_gatekeeper" remote="android-security" groups="pdk" />
   <project path="system/media" name="android_system_media" remote="android-security" />
   <project path="system/netd" name="android_system_netd" remote="android-security" />

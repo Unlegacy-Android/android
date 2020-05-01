@@ -23,6 +23,7 @@
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/neven" />
+  <remove-project name="platform/external/ppp" />
   <remove-project name="platform/external/sfntly" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/sonivox" />
@@ -79,6 +80,7 @@
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
   <project path="external/libxml2" name="android_external_libxml2" remote="android-security" groups="pdk,libxml2" />
   <project path="external/neven" name="android_external_neven" remote="android-security" groups="pdk" />
+  <project path="external/ppp" name="android_external_ppp" remote="android-security" groups="pdk" />
   <project path="external/sfntly" name="android_external_sfntly" remote="android-security" groups="pdk,qcom_msm8x26" />
   <project path="external/skia" name="android_external_skia" remote="android-security" groups="pdk,qcom_msm8x26" />
   <project path="external/sonivox" name="android_external_sonivox" remote="android-security" groups="pdk" />

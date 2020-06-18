@@ -14,6 +14,7 @@
   <remove-project name="platform/external/ImageMagick" />
   <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libmpeg2" />
@@ -71,6 +72,7 @@
   <project path="external/ImageMagick" name="android_external_ImageMagick" remote="android-security" groups="pdk" />
   <project path="external/libavc" name="android_external_libavc" remote="android-security" groups="pdk" />
   <project path="external/libcxx" name="android_external_libcxx" remote="android-security" groups="pdk" />
+  <project path="external/libexif" name="android_external_libexif" remote="android-security" groups="pdk" />
   <project path="external/libhevc" name="android_external_libhevc" remote="android-security" groups="pdk" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="android-security" groups="pdk" />
   <project path="external/libmpeg2" name="android_external_libmpeg2" remote="android-security" groups="pdk" />

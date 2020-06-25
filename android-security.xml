@@ -22,6 +22,7 @@
   <remove-project name="platform/external/icu4c" />
   <remove-project name="platform/external/jhead" />
   <remove-project name="platform/external/jpeg" />
+  <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/libvorbis" />
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libnfc-nci" />
@@ -84,6 +85,7 @@
   <project path="external/icu4c" name="android_external_icu4c" remote="android-security" groups="pdk" />
   <project path="external/jhead" name="android_external_jhead" remote="android-security" groups="pdk" />
   <project path="external/jpeg" name="android_external_jpeg" remote="android-security" groups="pdk" />
+  <project path="external/libexif" name="android_external_libexif" />
   <project path="external/libvorbis" name="android_external_libvorbis" remote="android-security" />
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="android-security" groups="pdk" />

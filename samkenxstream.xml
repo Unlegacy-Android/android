@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Unlegacy Android manifest project -->
-  <project path="android" name="Unlegacy-Android/android" remote="unlegacy" />
+  <!-- SamkenX Android manifest project -->
+  <project path="android" name="SamkenX-Android/android" remote="samkenxstrean" />
 
-  <!-- Unlegacy Android vendor project  -->
-  <project path="vendor/unlegacy" name="Unlegacy-Android/android_vendor_unlegacy" remote="unlegacy" />
+  <!-- SamkenX Android vendor project  -->
+  <project path="vendor/samkenx" name="SamkenX-Android/android_vendor_samkenx" remote="samkenxstream" />
 
   <!-- Replace build project to build kernel inline from the source -->
   <remove-project name="platform/build" />
-  <project path="build" name="Unlegacy-Android/android_build" remote="unlegacy" groups="pdk" >
+  <project path="build" name="SamkenX-Android/android_build" remote="samkenxstream" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="Unlegacy-Android/android_frameworks_av" remote="unlegacy" groups="pdk" />
+  <project path="frameworks/av" name="SamkenX-Android/android_frameworks_av" remote="samkenxstream" groups="pdk" />
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="Unlegacy-Android/android_frameworks_base" remote="unlegacy" groups="pdk" />
+  <project path="frameworks/base" name="SamkenX-Android/android_frameworks_base" remote="samkenxstream" groups="pdk" />
   <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="Unlegacy-Android/android_frameworks_native" remote="unlegacy" groups="pdk" />
+  <project path="frameworks/native" name="SamkenX-Android/android_frameworks_native" remote="samkenxstream" groups="pdk" />
   <remove-project name="platform/system/bt" />
-  <project path="system/bt" name="Unlegacy-Android/android_system_bt" remote="unlegacy" groups="pdk" />
+  <project path="system/bt" name="SamkenX-Android/android_system_bt" remote="samkenxstream" groups="pdk" />
   <remove-project name="platform/packages/apps/Camera2" />
-  <project path="packages/apps/Camera2" name="Unlegacy-Android/android_packages_apps_Camera2" remote="unlegacy" groups="pdk-fs" />
+  <project path="packages/apps/Camera2" name="SamkenX-Android/android_packages_apps_Camera2" remote="samkenxstream" groups="pdk-fs" />
   <remove-project name="platform/system/core" />
-  <project path="system/core" name="Unlegacy-Android/android_system_core" remote="unlegacy" groups="pdk" />
+  <project path="system/core" name="SamkenX-Android/android_system_core" remote="samkenxstream" groups="pdk" />
 
-  <project path="external/stlport" name="Unlegacy-Android/android_external_stlport" remote="unlegacy" groups="pdk" />
+  <project path="external/stlport" name="SamkenX-Android/android_external_stlport" remote="samkenxstream" groups="pdk" />
 
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="master" groups="pdk,linux,arm" />
 

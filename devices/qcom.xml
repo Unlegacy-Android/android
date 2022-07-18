@@ -2,13 +2,13 @@
 <manifest>
 
   <!-- common -->
-  <project path="kernel/qcom/msm8960" name="Unlegacy-Android/android_kernel_qcom_msm8960" remote="unlegacy" revision="stable" groups="kernel,qcom" />
+  <project path="kernel/qcom/msm8917" name="SamkenX-Android/android_kernel_qcom_msm8917" remote="samkenxstream" revision="stable" groups="kernel,qcom" />
 
   <!-- mako -->
-  <project path="device/lge/mako" name="Unlegacy-Android/android_device_lge_mako" remote="unlegacy" groups="qcom,device,lge,mako" />
+  <project path="device/vivo/mako" name="SamkenX-Android/android_device_vivo_mako" remote="samkenxstream" groups="qcom,device,vivo,mako" />
 
   <!-- hammerhead -->
-  <project path="kernel/lge/hammerhead" name="Unlegacy-Android/android_kernel_lge_hammerhead" remote="unlegacy" revision="stable" groups="qcom,kernel,lge,hammerhead" />
-  <project path="device/lge/hammerhead" name="Unlegacy-Android/android_device_lge_hammerhead" remote="unlegacy" groups="qcom,device,lge,hammerhead" />
+  <project path="kernel/vivo/hammerhead" name="SamkenX-Android/android_kernel_vivo_hammerhead" remote="samkenxstream" revision="stable" groups="qcom,kernel,vivo,hammerhead" />
+  <project path="device/vivo/hammerhead" name="SamkenX-Android/android_device_vivo_hammerhead" remote="samkenxstream" groups="qcom,device,vivo,hammerhead" />
 
 </manifest>

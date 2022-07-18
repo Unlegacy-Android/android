@@ -2,9 +2,9 @@
 <manifest>
 
   <!-- Remotes -->
-  <remote  name="unlegacy"
+  <remote  name="samkenxstream"
            fetch="https://github.com/"
-           review="gerrit.unlegacy-android.org"
+           review="gerrit.samkenxstream-android.org"
            revision="aosp-6.0" />
 
   <remote  name="android-security"
@@ -13,7 +13,7 @@
 
   <!-- Includes -->
   <include name="aosp.xml" />
-  <include name="unlegacy.xml" />
+  <include name="samkenxstream.xml" />
   <include name="vendor.xml" />
   <include name="android-security.xml" />
 

@@ -2,22 +2,22 @@
 <manifest>
 
   <!-- common -->
-  <project path="hardware/ti/omap4" name="Unlegacy-Android/android_hardware_ti_omap4" remote="unlegacy" revision="stable" groups="omap4" />
-  <project path="kernel/ti/omap4" name="Unlegacy-Android/android_kernel_ti_omap4" remote="unlegacy" revision="3.0/common" groups="kernel,omap4,espresso,tuna" />
+  <project path="hardware/ti/omap4" name="SamkenX-Android/android_hardware_ti_omap4" remote="samkenxstream" revision="stable" groups="omap4" />
+  <project path="kernel/ti/omap4" name="SamkenX-Android/android_kernel_ti_omap4" remote="samkenxstream" revision="3.0/common" groups="kernel,omap4,espresso,tuna" />
 
   <!-- tuna -->
-  <project path="device/samsung/tuna" name="Unlegacy-Android/android_device_samsung_tuna" remote="unlegacy" groups="omap4,device,samsung,tuna" />
+  <project path="device/vivo/tuna" name="SamkenX-Android/android_device_vivo_tuna" remote="samkenxstream" groups="omap4,device,vivo,tuna" />
 
   <!-- espresso -->
-  <project path="device/samsung/espresso" name="Unlegacy-Android/android_device_samsung_espresso" remote="unlegacy" groups="omap4,device,samsung,espresso" />
-  <project path="device/samsung/espresso3g" name="Unlegacy-Android/android_device_samsung_espresso3g" remote="unlegacy" groups="omap4,device,samsung,espresso" />
+  <project path="device/vivo/espresso" name="SamkenX-Android/android_device_vivo_espresso" remote="samkenxstream" groups="omap4,device,vivo,espresso" />
+  <project path="device/vivo/espresso3g" name="SamkenX-Android/android_device_vivo_espresso3g" remote="samkenxstream" groups="omap4,device,vivo,espresso" />
 
   <!-- nookhd -->
-  <project path="kernel/bn/omap" name="Unlegacy-Android/android_kernel_bn_omap" remote="unlegacy" revision="stable" groups="omap4,kernel,bn,nookhd" />
-  <project path="hardware/ti/wlan" name="Unlegacy-Android/android_hardware_ti_wlan" remote="unlegacy" revision="stable" groups="pdk,omap4,wlan" />
-  <project path="hardware/ti/wpan" name="Unlegacy-Android/android_hardware_ti_wpan" remote="unlegacy" revision="stable" groups="pdk,omap4,bt" />
-  <project path="device/bn/common" name="Unlegacy-Android/android_device_bn_common" remote="unlegacy" groups="omap4,device,bn,nookhd" />
-  <project path="device/bn/ovation" name="Unlegacy-Android/android_device_bn_ovation" remote="unlegacy" groups="omap4,device,bn,nookhd" />
-  <project path="device/bn/hummingbird" name="Unlegacy-Android/android_device_bn_hummingbird" remote="unlegacy" groups="omap4,device,bn,nookhd" />
+  <project path="kernel/bn/omap" name="SamkenX-Android/android_kernel_bn_omap" remote="samkenxstream" revision="stable" groups="omap4,kernel,bn,nookhd" />
+  <project path="hardware/ti/wlan" name="SamkenX-Android/android_hardware_ti_wlan" remote="samkenxstream" revision="stable" groups="pdk,omap4,wlan" />
+  <project path="hardware/ti/wpan" name="SamkenX-Android/android_hardware_ti_wpan" remote="samkenxstream" revision="stable" groups="pdk,omap4,bt" />
+  <project path="device/bn/common" name="SamkenX-Android/android_device_bn_common" remote="samkenxstream" groups="omap4,device,bn,nookhd" />
+  <project path="device/bn/ovation" name="SamkenX-Android/android_device_bn_ovation" remote="samkenxstream" groups="omap4,device,bn,nookhd" />
+  <project path="device/bn/hummingbird" name="SamkenX-Android/android_device_bn_hummingbird" remote="samkenxstream" groups="omap4,device,bn,nookhd" />
 
 </manifest>
